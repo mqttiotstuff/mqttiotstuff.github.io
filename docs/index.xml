@@ -6,10 +6,19 @@
     <description>Recent content on MQTTIotStuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2008–2018, PFreydiere; all rights reserved.</copyright>
-    <lastBuildDate>Wed, 18 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 18 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mqttiotstuff.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title></title>
+      <link>https://mqttiotstuff.github.io/articles/</link>
+      <pubDate>Fri, 18 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mqttiotstuff.github.io/articles/</guid>
+      <description>Building Iot System </description>
+    </item>
     
     <item>
       <title>IotMonitor v0.1</title>
@@ -38,6 +47,17 @@ Learn more and contribute on GitHub.</description>
       
       <guid>https://mqttiotstuff.github.io/archives/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://mqttiotstuff.github.io/iotmonitor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mqttiotstuff.github.io/iotmonitor/</guid>
+      <description>IOTMonitor project This project is a simple state manager and monitoring system for MQTT based communication devices (IOT). Iotmonitor monitor the existing devices, using a config file.
+IotMonitor also record and restore their states as they go and recover. It helps to maintain IOT things working, even if they fails.
+Each device has an independent communication message time out, when the device did not reponse until timeout is reached, the iotmonitor publish a specific monitoring failure topic for the device, with the latest contact timestamp</description>
     </item>
     
   </channel>
