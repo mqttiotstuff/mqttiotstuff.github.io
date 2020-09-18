@@ -1,11 +1,9 @@
 +++
-title = "IotMonitor"
+title = "IotMonitor project"
 description = "IotMonitor description"
 date = "2019-09-18"
 +++
 
-
-## IOTMonitor project
 
 This project is a simple state manager and monitoring system for MQTT based communication devices (IOT). Iotmonitor monitor the existing devices, using a config file. 
 
