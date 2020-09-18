@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MQTTIotStuff</title>
+    <link>https://mqttiotstuff.github.io/</link>
+    <description>Recent content on MQTTIotStuff</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2008–2018, PFreydiere; all rights reserved.</copyright>
+    <lastBuildDate>Wed, 18 Sep 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://mqttiotstuff.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>IotMonitor v0.1</title>
+      <link>https://mqttiotstuff.github.io/post/iotmonitor-annonce/</link>
+      <pubDate>Fri, 18 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mqttiotstuff.github.io/post/iotmonitor-annonce/</guid>
+      <description>&lt;p&gt;EffortLess MQTT monitoring.&lt;/p&gt;
+&lt;p&gt;After a couple of month, and testing, the first version of iotmonitor is out.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://mqttiotstuff.github.io/about/</link>
+      <pubDate>Wed, 18 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mqttiotstuff.github.io/about/</guid>
+      <description>Several Tools to build MQTT Iot System for either Home or Offices.
+Learn more and contribute on GitHub.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://mqttiotstuff.github.io/archives/</link>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mqttiotstuff.github.io/archives/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,9 +1,11 @@
 # set `baseurl` to your root domain
 # if you set it to "/" share icons won't work properly on production
-baseurl = "https://example.com/"  # Include trailing slash
-title = "Clarity"
+baseurl = "https://mqttiotstuff.github.io/"  # Include trailing slash
+title = "MQTTIotStuff"
 author = "Patrice Freydiere"
 copyright = "Copyright © 2008–2018, PFreydiere; all rights reserved."
+publishDir = "docs"
+
 # canonifyurls = true
 paginate = 10
 theme = "hugo-clarity"
@@ -71,3 +73,5 @@ mobileNavigation = "left" # if you prefer right change to 'right'
 
 # enforceLightMode = false
 enforceDarkMode = true
+
+
