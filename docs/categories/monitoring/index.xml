@@ -6,10 +6,21 @@
     <description>Recent content in monitoring on MQTTIotStuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2008–2018, PFreydiere; all rights reserved.</copyright>
-    <lastBuildDate>Fri, 18 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mqttiotstuff.github.io/categories/monitoring/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Freeing some Mqtt agents python implementation</title>
+      <link>https://mqttiotstuff.github.io/post/mqtt-agent-repository/</link>
+      <pubDate>Sat, 28 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mqttiotstuff.github.io/post/mqtt-agent-repository/</guid>
+      <description>&lt;p&gt;Mqtt iot system bring value in every day&amp;rsquo;s life. This is because of the existing agents that help system live.
+Some agents have been freed in repository, for preview. As my own system grow and used,  there are still semantic maturing, and testing.
+These implementation are in python 3, to ease the read and let users understand and extend.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>IotMonitor v0.1</title>
