@@ -47,6 +47,6 @@ Below the source code repository and associated animation gallery.
 
 	This repo deals with the controlling software agent dealing with the device, in python and a bunch of generators  and expression parser to simplify the implementation of expressivness.
 
-Still work on the go.
+Work still in progress
 
 
