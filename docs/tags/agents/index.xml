@@ -6,10 +6,22 @@
     <description>Recent content in agents on MQTTIotStuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2008–2018, PFreydiere; all rights reserved.</copyright>
-    <lastBuildDate>Sat, 28 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 14 Mar 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mqttiotstuff.github.io/tags/agents/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Experiment around LedBoxes</title>
+      <link>https://mqttiotstuff.github.io/post/mqtt-agent-ledbox/</link>
+      <pubDate>Sun, 14 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mqttiotstuff.github.io/post/mqtt-agent-ledbox/</guid>
+      <description>&lt;p&gt;Working part of my time at home, i needed to bring some non invasive informations about my systems, taking informations from calm technologies, i&amp;rsquo;d like to experiment bit a new device sitting on the desk and inform about system alerts i choose.&lt;/p&gt;
+&lt;p&gt;Here is how the ledbox came in. I would like to experiment in practice the affordance of such device. This device is composed of a led banner rolled in a semi transparent box, and also containing a body sensor and a bunch of sensitive buttons at the top.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/mqttiotstuff/MyMQTTNodeIOT/blob/master/hardware/SimpleDevice05/ledbox2.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;This device is connected to MQTT brocker, and receive the leds status to display. A bit rought at the first glade, but working on the experience broad some interesting feedback using low display lights and smooth transitions.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Freeing some Mqtt agents python implementation</title>
