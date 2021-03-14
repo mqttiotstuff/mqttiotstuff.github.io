@@ -15,11 +15,11 @@ aliases = ["mqtt-ledbox-agent"]
 thumbnail = "images/cloud-symbol-inside-a-circle.png"
 +++
 
-Working part of my time at home, i needed to bring some non invasive informations about my systems, taking informations from calm technologies, i'd like to experiment bit a new device sitting on the desk and inform about system alerts i choose. 
+Working part of my time at home, i needed to be informed about all my systems in a non invasive way,  following the calm technology trend to stay focus on my primary working task. With this orientation,  I've then conduct some experiments building a new device standing on the desk and bring system informations and alerts i choose.
 
-Here is how the ledbox came in. I would like to experiment in practice the affordance of such device. This device is composed of a led banner rolled in a semi transparent box, and also containing a body sensor and a bunch of sensitive buttons at the top.
+Here is how the ledbox came in. I've just wished to experiment in practice the affordance of such device and its communication ability and attention retention. This device is composed of a led banner rolled in a semi transparent box, and also containing a body sensor and 4 touch buttons on the top.
 
-![](https://github.com/mqttiotstuff/MyMQTTNodeIOT/blob/master/hardware/SimpleDevice05/ledbox2.jpg)
+![](https://raw.githubusercontent.com/mqttiotstuff/MyMQTTNodeIOT/master/hardware/SimpleDevice05/ledbox2.jpg)
 
 This device is connected to MQTT brocker, and receive the leds status to display. A bit rought at the first glade, but working on the experience broad some interesting feedback using low display lights and smooth transitions.
 
