@@ -20,7 +20,7 @@
       <description>&lt;p&gt;Working part of my time at home, i needed to be informed about all my systems in a non invasive way,  following the calm technology trend to stay focus on my primary working task. With this orientation,  I&amp;rsquo;ve then conduct some experiments building a new device standing on the desk and bring system informations and alerts i choose.&lt;/p&gt;
 &lt;p&gt;Here is how the ledbox came in. I&amp;rsquo;ve just wished to experiment in practice the affordance of such device and its communication ability and attention retention. This device is composed of a led banner rolled in a semi transparent box, and also containing a body sensor and 4 touch buttons on the top.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/mqttiotstuff/MyMQTTNodeIOT/master/hardware/SimpleDevice05/ledbox2.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;This device is connected to MQTT brocker, and receive the leds status to display. A bit rought at the first glade, but working on the experience broad some interesting feedback using low display lights and smooth transitions.&lt;/p&gt;</description>
+&lt;p&gt;This device is connected to MQTT brocker, and receive the leds status to display. A bit rought at the first glace, but the work on the user&amp;rsquo;s experience bring interesting points on using low light displays and smooth transitions.&lt;/p&gt;</description>
     </item>
     
     <item>
