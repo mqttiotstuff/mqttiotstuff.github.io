@@ -22,6 +22,15 @@ The IOT Growing plant station The growing plant is hosted in the living room, an
     </item>
     
     <item>
+      <title>IotMonitor 0.2.2</title>
+      <link>https://mqttiotstuff.github.io/post/iotmonitor-annonce-0.2.2/</link>
+      <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mqttiotstuff.github.io/post/iotmonitor-annonce-0.2.2/</guid>
+      <description>IOTMonitor 0.2.2 - add clientid in config to permit multiple instances of iotmonitor - fix 0.8 compilation  See https://github.com/mqttiotstuff/iotmonitor for changelog, version</description>
+    </item>
+    
+    <item>
       <title>IotMonitor project</title>
       <link>https://mqttiotstuff.github.io/iotmonitor/</link>
       <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
@@ -72,15 +81,6 @@ These implementation are in python 3, to ease the read and let users understand 
       <description>EffortLess MQTT monitoring.
 After a couple of month, and testing, the first version of iotmonitor is out as a published version. This initial version has been used about one year for manging a smart home system.
 IOTMonitor See https://github.com/mqttiotstuff/iotmonitor for changelog, version</description>
-    </item>
-    
-    <item>
-      <title>IotMonitor 0.2.2</title>
-      <link>https://mqttiotstuff.github.io/post/iotmonitor-annonce-0.2.2/</link>
-      <pubDate>Sat, 13 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://mqttiotstuff.github.io/post/iotmonitor-annonce-0.2.2/</guid>
-      <description>IOTMonitor 0.2.2 - add clientid in config to permit multiple instances of iotmonitor - fix 0.8 compilation  See https://github.com/mqttiotstuff/iotmonitor for changelog, version</description>
     </item>
     
     <item>
