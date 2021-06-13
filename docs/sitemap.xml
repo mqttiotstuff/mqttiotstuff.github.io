@@ -78,6 +78,11 @@
   </url>
   
   <url>
+    <loc>https://mqttiotstuff.github.io/post/iotmonitor-annonce-0.2.2/</loc>
+    <lastmod>2020-06-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://mqttiotstuff.github.io/about/</loc>
     <lastmod>2019-09-18T00:00:00+00:00</lastmod>
   </url>
@@ -89,10 +94,6 @@
   
   <url>
     <loc>https://mqttiotstuff.github.io/tags/index/</loc>
-  </url>
-  
-  <url>
-    <loc>https://mqttiotstuff.github.io/post/iotmonitor-annonce-0.2.2/</loc>
   </url>
   
 </urlset>
