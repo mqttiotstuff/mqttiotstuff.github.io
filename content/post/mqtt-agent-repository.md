@@ -12,7 +12,8 @@ categories = [
 ]
 series = ["Themes Guide"]
 aliases = ["migrate-from-jekyl"]
-thumbnail = "images/cloud-symbol-inside-a-circle.png"
+#thumbnail = "images/cloud-symbol-inside-a-circle.png"
+thumbnail = "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg"
 +++
 
 Mqtt iot system bring value in every day's life. This is because of the existing agents that help system live. 

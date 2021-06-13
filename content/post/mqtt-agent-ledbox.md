@@ -12,7 +12,8 @@ categories = [
 ]
 series = ["Themes Guide"]
 aliases = ["mqtt-ledbox-agent"]
-thumbnail = "images/cloud-symbol-inside-a-circle.png"
+# thumbnail = "images/cloud-symbol-inside-a-circle.png"
+thumbnail = "https://raw.githubusercontent.com/mqttiotstuff/MyMQTTNodeIOT/master/hardware/SimpleDevice05/ledbox2.jpg"
 +++
 
 Working part of my time at home, i needed to be informed about all my systems in a non invasive way,  following the calm technology trend to stay focus on my primary working task. With this orientation,  I've then conduct some experiments building a new device standing on the desk and bring system informations and alerts i choose.

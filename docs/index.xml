@@ -6,7 +6,7 @@
     <description>Recent content on MQTTIotStuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2008–2018, PFreydiere; all rights reserved.</copyright>
-    <lastBuildDate>Fri, 18 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 13 Jun 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mqttiotstuff.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -19,6 +19,16 @@
       <guid>https://mqttiotstuff.github.io/post/growing-plant/</guid>
       <description>This prototype is an expermiment for adding to the smart home system, some additional capabilities to monitor plants and growing plants.
 The IOT Growing plant station The growing plant is hosted in the living room, and permit us to grow seeds before planting them on the outside. The growth rate is about 4 time faster than the outside. There are still ways of improvment but gives good results in preparing and growing aromatic plants or even small vegetables.</description>
+    </item>
+    
+    <item>
+      <title>IotMonitor project</title>
+      <link>https://mqttiotstuff.github.io/iotmonitor/</link>
+      <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mqttiotstuff.github.io/iotmonitor/</guid>
+      <description>IOTMonitor project version 0.2.2 On the 0.2.2 version, several small enhacements : - Mqtt client specification on the config.toml - building from docker, either release and dev zig version  IotMonitor is an effortless and lightweight mqtt monitoring for devices (things) and agents on Linux.
+IotMonitor aims to solve the &amp;ldquo;always up&amp;rdquo; problem of large IOT devices and agents system. This project is successfully used every day for running smart home automation system.</description>
     </item>
     
     <item>
@@ -59,8 +69,9 @@ These implementation are in python 3, to ease the read and let users understand 
       <pubDate>Fri, 18 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>https://mqttiotstuff.github.io/post/iotmonitor-annonce/</guid>
-      <description>&lt;p&gt;EffortLess MQTT monitoring.&lt;/p&gt;
-&lt;p&gt;After a couple of month, and testing, the first version of iotmonitor is out.&lt;/p&gt;</description>
+      <description>EffortLess MQTT monitoring.
+After a couple of month, and testing, the first version of iotmonitor is out as a published version. This initial version has been used about one year for manging a smart home system.
+IOTMonitor See https://github.com/mqttiotstuff/iotmonitor for changelog, version</description>
     </item>
     
     <item>
@@ -74,23 +85,21 @@ Learn more and contribute on GitHub.</description>
     </item>
     
     <item>
-      <title>IotMonitor project</title>
-      <link>https://mqttiotstuff.github.io/iotmonitor/</link>
-      <pubDate>Wed, 18 Sep 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://mqttiotstuff.github.io/iotmonitor/</guid>
-      <description>This project is a simple state manager and monitoring system for MQTT based communication devices (IOT). Iotmonitor monitor the existing devices, using a config file.
-IotMonitor also record and restore their states as they go and recover. It helps to maintain IOT things working, even if they fails.
-Each device has an independent communication message time out, when the device did not reponse until timeout is reached, the iotmonitor publish a specific monitoring failure topic for the device, with the latest contact timestamp</description>
-    </item>
-    
-    <item>
       <title></title>
       <link>https://mqttiotstuff.github.io/archives/</link>
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://mqttiotstuff.github.io/archives/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>IotMonitor 0.2.2</title>
+      <link>https://mqttiotstuff.github.io/post/iotmonitor-annonce-0.2.2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mqttiotstuff.github.io/post/iotmonitor-annonce-0.2.2/</guid>
+      <description>IOTMonitor 0.2.2 - add clientid in config to permit multiple instances of iotmonitor - fix 0.8 compilation  See https://github.com/mqttiotstuff/iotmonitor for changelog, version</description>
     </item>
     
   </channel>

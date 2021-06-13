@@ -123,7 +123,7 @@
     <use xlink:href="#calendar"></use>
   </svg>
   <span class="post_date">
-    Sep 18, 2019</span>
+    Jun 13, 2021</span>
 </div>
 
     <div class='post_share'>
@@ -157,87 +157,60 @@
 </div>
 
     
-    <p>This project is a simple state manager and monitoring system for MQTT based communication devices (IOT). Iotmonitor monitor the existing devices, using a config file.</p>
-<p>IotMonitor also record and restore their states as they go and recover. It helps to maintain IOT things working, even if they fails.</p>
-<p>Each device has an independent communication message time out, when the device did not reponse until timeout is reached, the iotmonitor publish a specific monitoring failure topic for the device, with the latest contact timestamp</p>
+    <h2 id="iotmonitor-project-version-022">IOTMonitor project version 0.2.2</h2>
+<pre><code>On the 0.2.2 version, several small enhacements :
+    - Mqtt client specification on the config.toml
+    - building from docker, either release and dev zig version
+</code></pre>
+<p>IotMonitor is an effortless and lightweight mqtt monitoring for devices (things) and agents on Linux.</p>
+<p>IotMonitor aims to solve the &ldquo;always up&rdquo; problem of large IOT devices and agents system. This project is successfully used every day for running smart home automation system.
+Considering large and longlived running mqtt systems can hardly rely only on monolytics plateforms, the reality is always composite as some agents or functionnalities increase with time. Diversity also occurs in running several programming languages implementation for agents.</p>
+<p>This project offers a simple command line, as in *nix system, to monitor MQTT device or agents system. MQTT based communication devices (IOT) and agents are watched, and alerts are emitted if devices or agents are not responding any more. Declared software agents are restarted by iotmonitor when crashed.</p>
+<p>In the behaviour, once the mqtt topics associated to a thing or agent is declared, IotMonitor records and restore given MQTT &ldquo;states topics&rdquo; as they go and recover. It helps reinstalling IOT things state, to avoid lots of administration tasks.</p>
+<p>IotMonitor use a TOML config file. Each device has an independent configured communication message time out. When the device stop communication on this topic, the iotmonitor publish a specific monitoring failure topic for the lots device, with the latest contact timestamp. This topic is labelled :</p>
 <pre><code>home/monitoring/expire/[device_name]
 </code></pre>
-<p>This topic can then be displayed or alerted to signal which device is not functionnal.</p>
-<p>This project also contains a C Paho MQTT client library, AND a <code>zig</code> leveldb client library. They can be reused, and improved independently of the projet.</p>
-<h3 id="building-the-project-on-linux">Building the project on linux</h3>
-<h3 id="using-docker">Using docker,</h3>
-<p>build the image :</p>
-<pre><code>cd docker
-docker build -t iotmonitor .
-</code></pre>
-<p>launch the container from image :</p>
-<pre><code>    docker run --rm -d -u $(id --user) -v `pwd`:/config iotmonitor
-</code></pre>
-<h4 id="from-scratch">From scratch</h4>
-<p>for building the project, the following elements are needed :</p>
-<ul>
-<li>leveldb library (used for storing stated)</li>
-<li>C compiler (builds essentials)</li>
-<li>cmake</li>
-<li>zig : 0.6</li>
-</ul>
-<p>then launch the following commands :</p>
-<pre><code>git clone --recursive https://github.com/frett27/iotmonitor
-cd iotmonitor
-cd paho.mqtt.c
-cmake -DPAHO_BUILD_STATIC=true .
-make
-cd ..
-
-mkdir bin
-zig build
-</code></pre>
-<h3 id="configuration">Configuration</h3>
-<p>The configuration is defined in a TOML <code>config.toml</code> file, see an example in the root directory</p>
-<p>Mqtt brocker configuration is done, using <code>[mqtt]</code> section
-in the following, the given parameters are found :</p>
-<pre><code>[mqtt]
-serverAddress=&quot;tcp://localhost:1883&quot;
-baseTopic=&quot;home/monitoring&quot;
-user=&quot;&quot;
-password=&quot;&quot;
-</code></pre>
+<p>This topic can then be displayed or alerted to inform that the device or agent is not working properly.</p>
+<p>This project is based on C Paho MQTT client library, use leveldb as state database.</p>
+<h3 id="configuration-file">Configuration File</h3>
+<p>The configuration is defined in the  <code>config.toml</code> TOML file, (see an example in the root directory)</p>
+<p>A global Mqtt broker configuration section is defined using a heading <code>[mqtt]</code>
+the following parameters are found :</p>
+<div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="ln">1</span><span class="p">[</span><span class="nx">mqtt</span><span class="p">]</span>
+<span class="ln">2</span><span class="nx">serverAddress</span><span class="p">=</span><span class="s2">&#34;tcp://localhost:1883&#34;</span>
+<span class="ln">3</span><span class="nx">baseTopic</span><span class="p">=</span><span class="s2">&#34;home/monitoring&#34;</span>
+<span class="ln">4</span><span class="nx">user</span><span class="p">=</span><span class="s2">&#34;&#34;</span>
+<span class="ln">5</span><span class="nx">password</span><span class="p">=</span><span class="s2">&#34;&#34;</span>
+</code></pre></div><p>An optional clientid can also be specified to change the mqtt clientid, a default &ldquo;iotmonitor&rdquo; is provided</p>
+<h4 id="device-declaration">Device declaration</h4>
 <p>In the configuration toml file, each device is declared in a section using a &ldquo;device_&rdquo; prefix
 in the section : the following elements can be found :</p>
-<pre><code>[device_esp04]
-watchTimeOut=60
-helloTopic=&quot;home/esp04&quot;
-watchTopics=&quot;home/esp04/sensors/#&quot;
-stateTopics=&quot;home/esp04/actuators/#&quot;
-</code></pre>
-<p>watchTimeOut : watch dog for alive state, when the timeout is reached without and interactions on watchTopics, then iotmonitor trigger an expire message for the device
-helloTopic : the topic to observe to welcome the device
-watchTopics : the topic pattern to observe to know the device is alive
-stateTopics : list of topics for recording the states and reset them as they are welcomed</p>
-<h3 id="state-restore">State restore</h3>
-<p>At iotmonitor launch the recorded states for devices are reposted to the topics
-this permit to centralize the state, and restore them when an iot device has rebooted.</p>
-<h3 id="monitoring-iotmonitor--">Monitoring iotmonitor :-)</h3>
-<p>To be sure all is under control, each second, IotMonitor publish a counter on the <code>home/monitoring/up</code> topic
-this option permit to know if the monitor is still operational.
+<div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="ln">1</span><span class="p">[</span><span class="nx">device_esp04</span><span class="p">]</span>
+<span class="ln">2</span><span class="nx">watchTimeOut</span><span class="p">=</span><span class="mi">60</span>
+<span class="ln">3</span><span class="nx">helloTopic</span><span class="p">=</span><span class="s2">&#34;home/esp04&#34;</span>
+<span class="ln">4</span><span class="nx">watchTopics</span><span class="p">=</span><span class="s2">&#34;home/esp04/sensors/#&#34;</span>
+<span class="ln">5</span><span class="nx">stateTopics</span><span class="p">=</span><span class="s2">&#34;home/esp04/actuators/#&#34;</span>
+</code></pre></div><ul>
+<li><code>watchTimeOut</code> : watch dog for alive state, when the timeout is reached without and interactions on watchTopics, then iotmonitor trigger an expire message for the device</li>
+<li><code>helloTopic</code> : the topic to observe to welcome the device. This topic trigger the state recovering for the device and agents. IotMonitor, resend the previous stored <code>stateTopics</code></li>
+<li><code>watchTopics</code> : the topic pattern to observe to know the device is alive</li>
+<li><code>stateTopics</code> : list of topics for recording the states and reset them as they are welcomed</li>
+</ul>
+<h4 id="agents-declarations">Agents declarations</h4>
+<p>Agents are declared using an &ldquo;agent_&rdquo; prefix in the section. Agents are devices with an associated command line (<code>exec</code> config key) that trigger the start of the software agent. IotMonitor checks periodically if the process is running, and relaunch it if needed.</p>
+<div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="ln">1</span><span class="p">[</span><span class="nx">agent_ledboxdaemon</span><span class="p">]</span>
+<span class="ln">2</span><span class="nx">exec</span><span class="p">=</span><span class="s2">&#34;source ~/mqttagents/p3/bin/activate;cd ~/mqttagents/mqtt-agent-ledbox;python3 ledboxdaemon.py&#34;</span>
+<span class="ln">3</span><span class="nx">watchTopics</span><span class="p">=</span><span class="s2">&#34;home/agents/ledbox/#&#34;</span>
+</code></pre></div><p>IotMonitor running the processes identify the process using a specific bash command line containing an IOTMONITOR tag, which is recognized to detect if the process is running. Monitored processes are detached from the iotmonitor process, avoiding to relaunch the whole system in the case of restarting the <code>iotmonitor</code> process.</p>
+<p>Agents may also have <code>helloTopic</code>, <code>stateTopics</code> and <code>watchTimeOut</code> as previously described.</p>
+<h4 id="state-restoration-for-things-and-agents">State restoration for things and agents</h4>
+<p>At startup OR when the <code>helloTopic</code> is fired, iotmonitor fire the previousely recorded states on mqtt, this permit the device (things), to take it&rsquo;s previoulsy state, as if it has not been stopped.. All mqtt recorded states (<code>stateTopics</code>) are backuped by iotmonitor in a leveldb database.
+For practical reasons, this permit to centralize the state, and restore them when an iot device has rebooted. If used this functionnality, reduce the need to implement a cold state storage for each agent or device.  Starting or stopping iotmonitor, redefine the state for all elements.</p>
+<h4 id="monitoring-iotmonitor--">Monitoring iotmonitor :-)</h4>
+<p>IotMonitor publish a counter on the <code>home/monitoring/up</code> topic every seconds. One can then monitor the iotmonitor externally.
 The counter is resetted at each startup.</p>
-<h3 id="developing-on-the-project">Developing on the project</h3>
-<p>when-changed is a simple python command ligne that auto recompile the project, when files changes</p>
-<pre><code>when-changed *.zig zig build
-     when-changed leveldb.zig ../zig/zig test leveldb.zig  -l leveldb -l c -l c++
-</code></pre>
-<h3 id="possible-improvments">Possible Improvments</h3>
-<ul>
-<li>Use a full parser</li>
-</ul>
-<p>seems a target port for zig in antlr4, is a good idea
-<a href="https://github.com/antlr/antlr4/blob/master/doc/creating-a-language-target.md">https://github.com/antlr/antlr4/blob/master/doc/creating-a-language-target.md</a></p>
-<h3 id="credits">Credits</h3>
-<ul>
-<li>zig-toml : for zig toml parser</li>
-<li>paho eclipse mqtt c library</li>
-<li>levedb database</li>
-</ul>
+<h1 id="more-information">More information</h1>
+<p><a href="https://github.com/mqttiotstuff/iotmonitor/">More information are available on the github repository</a></p>
 
   </article>
 <aside class="sidebar">
@@ -262,6 +235,10 @@ The counter is resetted at each startup.</p>
         <a href="https://mqttiotstuff.github.io/post/iotmonitor-annonce/" class="nav-link">IotMonitor v0.1</a>
       </li>
     
+      <li>
+        <a href="https://mqttiotstuff.github.io/post/iotmonitor-annonce-0.2.2/" class="nav-link">IotMonitor 0.2.2</a>
+      </li>
+    
     </ul>
     <h2 class="mt-4">Recent Posts</h2>
     <ul class="flex-column">
@@ -278,6 +255,9 @@ The counter is resetted at each startup.</p>
       <li>
         <a href="https://mqttiotstuff.github.io/post/iotmonitor-annonce/" class="nav-link">IotMonitor v0.1</a>
       </li>
+      <li>
+        <a href="https://mqttiotstuff.github.io/post/iotmonitor-annonce-0.2.2/" class="nav-link">IotMonitor 0.2.2</a>
+      </li>
     </ul> 
     
     <div>
@@ -285,7 +265,7 @@ The counter is resetted at each startup.</p>
       <nav class="tags_nav">
         <a href='https://mqttiotstuff.github.io/categories/monitoring/' class=" post_tag button button_translucent">
           MONITORING
-          <span class='button_tally'>3</span>
+          <span class='button_tally'>4</span>
         </a>
         
         <a href='https://mqttiotstuff.github.io/categories/python/' class=" post_tag button button_translucent">
@@ -305,6 +285,11 @@ The counter is resetted at each startup.</p>
           <span class='button_tally'>2</span>
         </a>
         
+        <a href='https://mqttiotstuff.github.io/tags/monitoring/' class=" post_tag button button_translucent">
+          MONITORING
+          <span class='button_tally'>2</span>
+        </a>
+        
         <a href='https://mqttiotstuff.github.io/tags/python/' class=" post_tag button button_translucent">
           PYTHON
           <span class='button_tally'>2</span>
@@ -312,11 +297,6 @@ The counter is resetted at each startup.</p>
         
         <a href='https://mqttiotstuff.github.io/tags/index/' class=" post_tag button button_translucent">
           INDEX
-          <span class='button_tally'>1</span>
-        </a>
-        
-        <a href='https://mqttiotstuff.github.io/tags/monitoring/' class=" post_tag button button_translucent">
-          MONITORING
           <span class='button_tally'>1</span>
         </a>
         

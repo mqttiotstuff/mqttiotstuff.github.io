@@ -11,14 +11,15 @@ categories = [
     "monitoring",
 ]
 series = ["Themes Guide"]
-aliases = ["migrate-from-jekyl"]
 thumbnail = "images/building.png"
 +++
 
 EffortLess MQTT monitoring.
 
-After a couple of month, and testing, the first version of iotmonitor is out. 
-<!--more-->
+After a couple of month, and testing, the first version of iotmonitor is out as a published version. This initial version has been used about one year for manging a smart home system.
+
 
 ## IOTMonitor
+
+[See https://github.com/mqttiotstuff/iotmonitor for changelog, version ](https://github.com/mqttiotstuff/iotmonitor)
 
