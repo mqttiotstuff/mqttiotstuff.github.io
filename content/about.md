@@ -8,4 +8,4 @@ author = "Mqtt IOT Stuff"
 
 Several Tools to build MQTT Iot System for either Home or Offices.
 
-Learn more and contribute on [GitHub](https://github.com/mymqttiotstuff).
+Learn more and contribute on [GitHub](https://github.com/mqttiotstuff).
