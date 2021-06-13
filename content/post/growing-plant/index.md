@@ -19,8 +19,9 @@ The growing plant is hosted in the living room, and permit us to grow seeds befo
 
 The growing station is controlled using MQTT, and associated tools. (either python script for logic, or node red), or standard mqtt dashboard on mobile phones.
 
-![](images/mqttdashboard.jpg)
-
+<div style="text-align:center;">
+	<img src="images/mqttdashboard.jpg" style="max-height:400px; align:center" />
+</div>
 
 Additional Datascience tools are used to compute the plant grow rate, but also monitor the timeseries
 
@@ -38,17 +39,24 @@ A camera has been also added, as an independant system, to watch the progress an
 
 Electronic has been confined on the top inside a small box. And some sensors are watched here as the moisture sensor, humidity and temperature sensor, 
 
-![Focus on ventilation](images/focus_turbine.jpg)
+<div style="text-align:center;">
+<a href="images/focus_turbine.jpg"><img src="images/focus_turbine.jpg" style="max-height:400px; align:center" /></a>
+</div>
+
 
 on the top, a small temperature and humidity sensor has been setup to have these values and monitored properties. 
 
-![](images/dht22.jpg)
+<div style="text-align:center;">
+<a href="images/dht22.jpg"><img src="images/dht22.jpg" style="max-height:400px; align:center" /></a>
+</div>
 
 # Electronic
 
 The electronic is based on the Arduino UNO module, that permit to prototype and solvering the whole once tested. Arduino if fine for electric sensor connection and PWM actuator controlling.
 
-![](images/electronic.jpg)
+<div style="text-align:center;">
+<a href="images/electronic.jpg"><img src="images/electronic.jpg" style="max-height:400px; align:center" /></a>
+</div>
 
 Schema are really simple and presented below.
 
