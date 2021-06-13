@@ -28,11 +28,16 @@ Additional Datascience tools are used to compute the plant grow rate, but also m
 ![](images/growth_rate_report.png)
 [Simple Growth Rate computation, using PlantCV](growth_rate_plantcv.pdf)
 
-
-
+Sensors and Actuators in the growing station :
+- Ambiant light
+- Humidity
+- Temperature
+- Moisture and soil humidity
+- Inner light
+- Inner water pump control or air renewing
+- IOT camera
  
 The Growing station has a lighting system on the top, with pulsed air system. At the initial design, a watering system was planned. 
-
 
 A camera has been also added, as an independant system, to watch the progress and control the several actuators.
 
@@ -58,9 +63,9 @@ The electronic is based on the Arduino UNO module, that permit to prototype and 
 <a href="images/electronic.jpg"><img src="images/electronic.jpg" style="max-height:400px; align:center" /></a>
 </div>
 
-Schema are really simple and presented below.
+Schema are really simple and presented below. Only Supply adaptation, and also Mosfets for Light and Air Control regulation, permitting to have a 12V control.
 
 ![Schematic](images/schema_serre_schema.png)
 
-![Prototype View](images/schema_serre_bb.png)
+![](images/schema_serre_bb.png)
 
