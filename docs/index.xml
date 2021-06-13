@@ -12,6 +12,16 @@
     
     
     <item>
+      <title>Growing Plant Prototype Station</title>
+      <link>https://mqttiotstuff.github.io/post/growing-plant/</link>
+      <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mqttiotstuff.github.io/post/growing-plant/</guid>
+      <description>This prototype is an expermiment for adding to the smart home system, some additional capabilities to monitor plants and growing plants.
+The IOT Growing plant station The growing plant is hosted in the living room, and permit us to grow seeds before planting them on the outside. The growth rate is about 4 time faster than the outside. There are still ways of improvment but gives good results in preparing and growing aromatic plants or even small vegetables.</description>
+    </item>
+    
+    <item>
       <title>Experiment around LedBoxes</title>
       <link>https://mqttiotstuff.github.io/post/mqtt-agent-ledbox/</link>
       <pubDate>Sun, 14 Mar 2021 00:00:00 +0000</pubDate>
