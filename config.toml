@@ -3,7 +3,7 @@
 baseurl = "https://mqttiotstuff.github.io/"  # Include trailing slash
 title = "MQTTIotStuff"
 author = "Patrice Freydiere"
-copyright = "Copyright © 2008–2018, PFreydiere; all rights reserved."
+copyright = "Copyright © 2008–2021, PFreydiere; all rights reserved."
 publishDir = "docs"
 
 # canonifyurls = true
@@ -30,11 +30,11 @@ theme = "hugo-clarity"
 author = "Patrice Freydiere"
 twitter = "@frett27"
 largeTwitterCard = false # set to true if you want to show a large twitter card image. The default is a small twitter card image
-introDescription = "Making stuff and enjoying building helpfull systems"
+introDescription = "Making stuff and enjoying building ambiant and helpfull systems, following calm technology principles"
 # description = "" # set your site's description here. will be use for home page content meta tags (seo). Alternatively set this description in your homepage content file i.e content/_index.md. Whatever is set in the latter will take precedence
 
 # Google analytics Id
-ga_analytics = "XXXXXXXXXX"
+ga_analytics = "G-TDBWC9KCXJ"
 
 # limit the number of taxonomies links shown on the sidebar of each page by default.
 numberOfTagsShown = 14 # Applies for all other default & custom taxonomies. e.g categories, brands see https://gohugo.io/content-management/taxonomies#what-is-a-taxonomy
