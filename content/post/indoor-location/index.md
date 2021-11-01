@@ -1,5 +1,5 @@
 +++
-title = "Indoor Location and Cyber mmonitoring"
+title = "Indoor Location and Cyber Monitoring"
 description = "Indoor location system"
 date = "2021-11-01"
 featured = true
