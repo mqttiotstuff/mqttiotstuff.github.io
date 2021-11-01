@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>device on MQTTIotStuff</title>
+    <link>https://mqttiotstuff.github.io/tags/device/</link>
+    <description>Recent content in device on MQTTIotStuff</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2008–2021, PFreydiere; all rights reserved.</copyright>
+    <lastBuildDate>Mon, 01 Nov 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://mqttiotstuff.github.io/tags/device/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Indoor Location and Cyber Monitoring</title>
+      <link>https://mqttiotstuff.github.io/post/indoor-location/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mqttiotstuff.github.io/post/indoor-location/</guid>
+      <description>&lt;p&gt;Watching for BlueTooth devices, or Beacon as well as Wifi stations, can be easily done, using a simple ESP32 device.  Several applications of this capability :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Indoor location&lt;/li&gt;
+&lt;li&gt;Presence detection&lt;/li&gt;
+&lt;li&gt;Cyber watching the around wifi devices, or stations&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Growing Plant Prototype Station</title>
+      <link>https://mqttiotstuff.github.io/post/growing-plant/</link>
+      <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mqttiotstuff.github.io/post/growing-plant/</guid>
+      <description>This prototype is an expermiment for adding to the smart home system, some additional capabilities to monitor plants and growing plants.
+The IOT Growing plant station The growing plant is hosted in the living room, and permit us to grow seeds before planting them on the outside. The growth rate has been observed to be about 4 time faster than outside growth. There are still ways of improvment but gives good results in preparing and growing aromatic plants or even small vegetables.</description>
+    </item>
+    
+    <item>
+      <title>Experiment around LedBoxes</title>
+      <link>https://mqttiotstuff.github.io/post/mqtt-agent-ledbox/</link>
+      <pubDate>Sun, 14 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mqttiotstuff.github.io/post/mqtt-agent-ledbox/</guid>
+      <description>&lt;p&gt;Working part of my time at home, i needed to be informed about all my systems in a non invasive way,  following the calm technology trend to stay focus on my primary working task. With this orientation,  I&amp;rsquo;ve then conduct some experiments building a new device standing on the desk and bring system informations and alerts i choose.&lt;/p&gt;
+&lt;p&gt;Here is how the ledbox came in. I&amp;rsquo;ve just wished to experiment in practice the affordance of such device and its communication ability and attention retention. This device is composed of a led banner rolled in a semi transparent box, and also containing a body sensor and 4 touch buttons on the top.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/mqttiotstuff/MyMQTTNodeIOT/master/hardware/SimpleDevice05/ledbox2.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;This device is connected to MQTT brocker, and receive the leds status to display. A bit rought at the first glace, but the work on the user&amp;rsquo;s experience bring interesting points on using low light displays and smooth transitions.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
