@@ -7,7 +7,7 @@ featured = true
 thumbnail = "post/indoor-location/images/belwifistation.jpg"
 
 tags = [
-    "indoor", "location"
+    "indoor", "location", "device"
 ]
 categories = [
     "location"

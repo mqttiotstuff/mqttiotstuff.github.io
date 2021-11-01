@@ -7,7 +7,7 @@ author = "Mqtt IOT Stuff"
 thumbnail = "post/growing-plant/images/global_view.jpg"
 
 tags = [
-    "growing", "plant","indoor"
+    "growing", "plant","indoor", "device"
 ]
 categories = [
     "application",

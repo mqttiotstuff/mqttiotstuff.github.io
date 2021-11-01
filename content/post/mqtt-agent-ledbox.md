@@ -5,7 +5,7 @@ date = "2021-03-14"
 description = "Bringing animations to ledboxed"
 featured = true
 tags = [
-    "agents", "python"
+    "agents", "python", "device"
 ]
 categories = [
     "monitoring","python"
@@ -49,5 +49,4 @@ Below the source code repository and associated animation gallery.
 	This repo deals with the controlling software agent dealing with the device, in python and a bunch of generators  and expression parser to simplify the implementation of expressivness.
 
 Work still in progress
-
 
