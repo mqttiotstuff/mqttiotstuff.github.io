@@ -136,3 +136,6 @@ Some key principles and values has been extracted to better define a calm tech c
 [https://calmtech.com/index.html](https://calmtech.com/index.html)
 
 The Design of Everyday Things (EAN / ISBN-13 : 9780465067107)
+
+Case organic : [https://www.caseorganic.com/](https://www.caseorganic.com/)
+
