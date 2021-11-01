@@ -23,7 +23,7 @@ Disrupting existing heavy others solutions aiming to embrace all possible combin
 
 This project (iotmonitor) offers then a simple command line, as in *nix system philosophy, to monitor MQTT device and agents. MQTT based communication devices (IOT) and agents are monitored and watched, iotmonitor emits alerts if devices or agents are not responding any more. Iotmonitor also restart declared software agents when crashed. 
 
-In the standard behaviour, once the mqtt topics associated to a device or agent, IotMonitor records and restore the given MQTT "states topics" as device and agents go or recover. It really helps reinstalling IOT system states, and avoid lots of manual or administration tasks.
+In the standard behaviour, once the mqtt topics are associated to a device or agent, IotMonitor records and restore the given MQTT "states topics" as device and agents go or recover. It really helps reinstalling IOT system states, and avoid lots of manual or administration tasks.
 
 IotMonitor use a simple TOML config file. Each device has an independent configured communication message time out. When the device stop communication on this topic, the iotmonitor publish a specific monitoring failure topic for the lots device, with the latest reached timestamp. This topic is labelled :
 
