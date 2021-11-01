@@ -14,7 +14,7 @@ What's new on version 0.2.2:
 
 
 
-IotMonitor is an effortless and lightweight mqtt monitoring for devices (things) and agents on Linux. 
+IotMonitor is an effortless and lightweight mqtt monitoring for devices (IOT things) and agents (software mqtt client) on Linux. 
 
 IotMonitor aims to solve the "always up" problem of large IOT devices and agents system. This project is successfully used every day for running smart home automation system.
 When considering large and longlived running mqtt systems, it can hardly rely only on monolytics plateforms. Reality is that complex and living systems always rely on composition,  as agents and functionnalities increase with time. Diversity then occurs and maintaining the system deals with running several specialized agents, programmed in diverse programming languages implementation. 
