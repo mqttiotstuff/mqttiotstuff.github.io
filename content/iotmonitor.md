@@ -1,7 +1,8 @@
 +++
 title = "IotMonitor project"
 description = "IotMonitor description"
-date = "2021-06-13"
+date = "2021-11-01"
+
 +++
 ## IOTMonitor project
 
@@ -17,7 +18,8 @@ What's new on version 0.2.2:
 IotMonitor is an effortless and lightweight mqtt monitoring for devices (IOT things) and agents (software mqtt client) on Linux. 
 
 IotMonitor aims to solve the "always up" problem of large IOT devices and agents system. This project is successfully used every day for running smart home automation system.
-When considering large and longlived running mqtt systems, it can hardly rely only on monolytics plateforms. Reality is that complex and living systems always rely on composition,  as agents and functionnalities increase with time. Diversity then occurs and maintaining the system deals with running several specialized agents, programmed in diverse programming languages implementation. 
+
+Disrupting existing heavy others solutions aiming to embrace all possible combinations of conneectivity. (and also locking users into a single solution),  Iotmonitor rely on it's side on aggregating and giving a "whole picture" for the system diversity implementation. It only rely on long term interfaces as OS process, MQTT. Microservice implementation strategy surf those days on this key aspect. When considering large and longlived running mqtt systems, solutions can hardly rely only on monolytics plateforms, leveling down the functionnality. Reality is that complex and focused systems always rely on composition of specialized implementation. As agents and functionnalities may increase with time,  diversity then occurs and system maintenance has to with checking and running several specialized agents programmed in different programming languages implementation. 
 
 This project (iotmonitor) offers then a simple command line, as in *nix system philosophy, to monitor MQTT device and agents. MQTT based communication devices (IOT) and agents are monitored and watched, iotmonitor emits alerts if devices or agents are not responding any more. Iotmonitor also restart declared software agents when crashed. 
 
