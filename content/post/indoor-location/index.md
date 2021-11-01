@@ -49,7 +49,7 @@ Some additional usage of this device and associated software will be published s
 
 
 
-
+![](images/esp32_dev.jpg)
 
 
 
