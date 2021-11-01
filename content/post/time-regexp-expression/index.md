@@ -6,6 +6,13 @@ aliases = ["event-time-base-triggers" ]
 author = "Mqtt IOT Stuff"
 thumbnail = "post/time-regexp-expression/images/tregexp.png"
 
+tags = [
+    "time", "python"
+]
+categories = [
+    "tools",
+]
+
 +++
 
 `Compilation and Language Theory` is a way to transform "Low level" informations into a more evolved action. This ability, in ambiant systems context,  leverage the synthetization of a couple of actions or "events", into a more human understandable action. This decomposition lead to more evolved semantic that can help design more sophisticated logics.

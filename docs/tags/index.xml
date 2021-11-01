@@ -6,10 +6,46 @@
     <description>Recent content in Tags on MQTTIotStuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2008–2021, PFreydiere; all rights reserved.</copyright>
-    <lastBuildDate>Sun, 13 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 31 Oct 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mqttiotstuff.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>python</title>
+      <link>https://mqttiotstuff.github.io/tags/python/</link>
+      <pubDate>Sun, 31 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mqttiotstuff.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>time</title>
+      <link>https://mqttiotstuff.github.io/tags/time/</link>
+      <pubDate>Sun, 31 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mqttiotstuff.github.io/tags/time/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>growing</title>
+      <link>https://mqttiotstuff.github.io/tags/growing/</link>
+      <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mqttiotstuff.github.io/tags/growing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>indoor</title>
+      <link>https://mqttiotstuff.github.io/tags/indoor/</link>
+      <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mqttiotstuff.github.io/tags/indoor/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>monitoring</title>
@@ -21,20 +57,20 @@
     </item>
     
     <item>
+      <title>plant</title>
+      <link>https://mqttiotstuff.github.io/tags/plant/</link>
+      <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mqttiotstuff.github.io/tags/plant/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>agents</title>
       <link>https://mqttiotstuff.github.io/tags/agents/</link>
       <pubDate>Sun, 14 Mar 2021 00:00:00 +0000</pubDate>
       
       <guid>https://mqttiotstuff.github.io/tags/agents/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>python</title>
-      <link>https://mqttiotstuff.github.io/tags/python/</link>
-      <pubDate>Sun, 14 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://mqttiotstuff.github.io/tags/python/</guid>
       <description></description>
     </item>
     

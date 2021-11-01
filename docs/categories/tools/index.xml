@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tools on MQTTIotStuff</title>
+    <link>https://mqttiotstuff.github.io/categories/tools/</link>
+    <description>Recent content in tools on MQTTIotStuff</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2008–2021, PFreydiere; all rights reserved.</copyright>
+    <lastBuildDate>Sun, 31 Oct 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://mqttiotstuff.github.io/categories/tools/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Time Expression RegExp triggers to enhance global control</title>
+      <link>https://mqttiotstuff.github.io/post/time-regexp-expression/</link>
+      <pubDate>Sun, 31 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mqttiotstuff.github.io/post/time-regexp-expression/</guid>
+      <description>&lt;p&gt;&lt;code&gt;Compilation and Language Theory&lt;/code&gt; is a way to transform &amp;ldquo;Low level&amp;rdquo; informations into a more evolved action. This ability, in ambiant systems context,  leverage the synthetization of a couple of actions or &amp;ldquo;events&amp;rdquo;, into a more human understandable action. This decomposition lead to more evolved semantic that can help design more sophisticated logics.&lt;/p&gt;
+&lt;p&gt;Applications of this is to enhance and extend existing actuators, and triggering timed based actions or events. Using a Button for example, long press button, or sequences of buttons can be transformed in actions, in the same way the &lt;a href=&#34;https://fr.wikipedia.org/wiki/Code_Morse_international&#34;&gt;Morse Code&lt;/a&gt; has been setted up in the 19th century for transmissing Textual messages, using a simple tone.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

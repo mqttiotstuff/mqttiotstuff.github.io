@@ -5,6 +5,14 @@ date = "2021-06-13"
 aliases = ["growing-plant-station" ]
 author = "Mqtt IOT Stuff"
 thumbnail = "post/growing-plant/images/global_view.jpg"
+
+tags = [
+    "growing", "plant","indoor"
+]
+categories = [
+    "application",
+]
+
 +++
 
 This prototype is an expermiment for adding to the smart home system, some additional capabilities to monitor plants and growing plants. 
@@ -36,7 +44,7 @@ Sensors and Actuators in the growing station :
 - Inner light
 - Inner water pump control or air renewing
 - IOT camera
- 
+
 The Growing station has a lighting system on the top, with pulsed air system. At the initial design, a watering system was planned. 
 
 A camera has been also added, as an independant system, to watch the progress and control the several actuators.
