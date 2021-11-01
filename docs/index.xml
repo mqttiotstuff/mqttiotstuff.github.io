@@ -55,7 +55,8 @@ The IOT Growing plant station The growing plant is hosted in the living room, an
       <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>https://mqttiotstuff.github.io/iotmonitor/</guid>
-      <description>IOTMonitor project version 0.2.2 On the 0.2.2 version, several small enhacements : - Mqtt client specification on the config.toml - building from docker, either release and dev zig version  IotMonitor is an effortless and lightweight mqtt monitoring for devices (things) and agents on Linux.
+      <description>IOTMonitor project What&amp;rsquo;s new on version 0.2.2:
+On the 0.2.2 version, several small enhacements : - Mqtt client specification on the config.toml - building from docker, either release and dev zig version  IotMonitor is an effortless and lightweight mqtt monitoring for devices (things) and agents on Linux.
 IotMonitor aims to solve the &amp;ldquo;always up&amp;rdquo; problem of large IOT devices and agents system. This project is successfully used every day for running smart home automation system.</description>
     </item>
     
