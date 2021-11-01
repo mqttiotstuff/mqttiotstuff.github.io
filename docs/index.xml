@@ -12,6 +12,20 @@
     
     
     <item>
+      <title>Indoor Location and Cyber mmonitoring</title>
+      <link>https://mqttiotstuff.github.io/post/indoor-location/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mqttiotstuff.github.io/post/indoor-location/</guid>
+      <description>&lt;p&gt;Watching for BlueTooth devices, or Beacon as well as Wifi stations, can be easily done, using a simple ESP32 device.  Several applications of this capability :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Indoor location&lt;/li&gt;
+&lt;li&gt;Presence detection&lt;/li&gt;
+&lt;li&gt;Cyber watching the around wifi devices, or stations&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
       <title>IotMonitor project</title>
       <link>https://mqttiotstuff.github.io/iotmonitor/</link>
       <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>

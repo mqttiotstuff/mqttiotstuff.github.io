@@ -12,11 +12,29 @@
     
     
     <item>
+      <title>indoor</title>
+      <link>https://mqttiotstuff.github.io/tags/indoor/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mqttiotstuff.github.io/tags/indoor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>iotmonitor</title>
       <link>https://mqttiotstuff.github.io/tags/iotmonitor/</link>
       <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
       
       <guid>https://mqttiotstuff.github.io/tags/iotmonitor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>location</title>
+      <link>https://mqttiotstuff.github.io/tags/location/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mqttiotstuff.github.io/tags/location/</guid>
       <description></description>
     </item>
     
@@ -62,15 +80,6 @@
       <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>https://mqttiotstuff.github.io/tags/growing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>indoor</title>
-      <link>https://mqttiotstuff.github.io/tags/indoor/</link>
-      <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://mqttiotstuff.github.io/tags/indoor/</guid>
       <description></description>
     </item>
     
