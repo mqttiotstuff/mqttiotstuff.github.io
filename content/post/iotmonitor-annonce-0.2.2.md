@@ -3,7 +3,7 @@ author = "MQTT Iot Stuff Authors"
 title = "IotMonitor 0.2.2"
 date = "2021-06-13"
 description = "Annoncing IotMonitor 0.2.2"
-featured = true
+featured = false
 tags = [
     "monitoring"
 ]
