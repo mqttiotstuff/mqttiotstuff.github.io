@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>concepts on MQTTIotStuff</title>
+    <link>https://mqttiotstuff.github.io/categories/concepts/</link>
+    <description>Recent content in concepts on MQTTIotStuff</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2008–2021, PFreydiere; all rights reserved.</copyright>
+    <lastBuildDate>Sun, 31 Oct 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://mqttiotstuff.github.io/categories/concepts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Introducing Calm Tech</title>
+      <link>https://mqttiotstuff.github.io/post/calm-tech/</link>
+      <pubDate>Sun, 31 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mqttiotstuff.github.io/post/calm-tech/</guid>
+      <description>&lt;p&gt;When informations and alerts are too much invasive in every day life, leading to high cognitive loads. Having the right information at the right time in the right place is the key to be efficient and preserve stress free attitudes. Designing Calm Technology IOT devices are nowadays mandatory to integrate such logics at home, to stay comfortable.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

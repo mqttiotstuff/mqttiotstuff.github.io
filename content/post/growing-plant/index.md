@@ -22,7 +22,7 @@ This prototype is an expermiment for adding to the smart home system, some addit
 
 ![Global view of the installation](images/global_view.jpg)
 
-The growing plant is hosted in the living room, and permit us to grow seeds before planting them on the outside. The growth rate is about 4 time faster than the outside. There are still ways of improvment but gives good results in preparing and growing aromatic plants or even small vegetables.
+The growing plant is hosted in the living room, and permit us to grow seeds before planting them on the outside. The growth rate has been observed to be about 4 time faster than outside growth. There are still ways of improvment but gives good results in preparing and growing aromatic plants or even small vegetables.
 
 
 The growing station is controlled using MQTT, and associated tools. (either python script for logic, or node red), or standard mqtt dashboard on mobile phones.

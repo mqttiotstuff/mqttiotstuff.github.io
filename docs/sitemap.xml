@@ -3,7 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://mqttiotstuff.github.io/tags/calm-tech/</loc>
+    <lastmod>2021-10-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://mqttiotstuff.github.io/categories/</loc>
+    <lastmod>2021-10-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mqttiotstuff.github.io/categories/concepts/</loc>
+    <lastmod>2021-10-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mqttiotstuff.github.io/post/calm-tech/</loc>
     <lastmod>2021-10-31T00:00:00+00:00</lastmod>
   </url>
   

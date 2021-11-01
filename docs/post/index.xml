@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Introducing Calm Tech</title>
+      <link>https://mqttiotstuff.github.io/post/calm-tech/</link>
+      <pubDate>Sun, 31 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mqttiotstuff.github.io/post/calm-tech/</guid>
+      <description>&lt;p&gt;When informations and alerts are too much invasive in every day life, leading to high cognitive loads. Having the right information at the right time in the right place is the key to be efficient and preserve stress free attitudes. Designing Calm Technology IOT devices are nowadays mandatory to integrate such logics at home, to stay comfortable.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Time Expression RegExp triggers to enhance global control</title>
       <link>https://mqttiotstuff.github.io/post/time-regexp-expression/</link>
       <pubDate>Sun, 31 Oct 2021 00:00:00 +0000</pubDate>
@@ -28,7 +37,7 @@
       
       <guid>https://mqttiotstuff.github.io/post/growing-plant/</guid>
       <description>This prototype is an expermiment for adding to the smart home system, some additional capabilities to monitor plants and growing plants.
-The IOT Growing plant station The growing plant is hosted in the living room, and permit us to grow seeds before planting them on the outside. The growth rate is about 4 time faster than the outside. There are still ways of improvment but gives good results in preparing and growing aromatic plants or even small vegetables.</description>
+The IOT Growing plant station The growing plant is hosted in the living room, and permit us to grow seeds before planting them on the outside. The growth rate has been observed to be about 4 time faster than outside growth. There are still ways of improvment but gives good results in preparing and growing aromatic plants or even small vegetables.</description>
     </item>
     
     <item>
