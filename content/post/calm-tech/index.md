@@ -35,7 +35,7 @@ Xerox stay a key reference Think Tank in Human Interface Design, and provided a 
 
 
 
-#### Calm Technology design principle
+#### Calm Technology design principles
 
 Some key principles and values has been extracted to better define a calm tech compliance. Accordingly to [calmtech](https://calmtech.com/index.html) website :
 
