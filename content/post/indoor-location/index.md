@@ -238,9 +238,9 @@ In this current experiment, it shows that indoor location can be easily setup us
 - assets location, as well as pets.
 - triggering actuator based on the location (lights, temperature, phone)
 
-The price also 
+In my case, the price worth the usage benefits, (either security and additional home comfort).
 
-In a industrial approach the calibration phase is one of the key issue to takle, and permit to accelerate the usages (after stations positionning and powering.)
+For a broader usage, the calibration phase seems to be one of the key point to takle, to permit to speed the installation. (after stations installation and powering.)
 
 
 
