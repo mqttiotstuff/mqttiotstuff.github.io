@@ -6,11 +6,7 @@
     <description>Recent content in python on MQTTIotStuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2008–2021, PFreydiere; all rights reserved.</copyright>
-    <lastBuildDate>Sun, 14 Mar 2021 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://mqttiotstuff.github.io/categories/python/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 14 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://mqttiotstuff.github.io/categories/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Experiment around LedBoxes</title>
       <link>https://mqttiotstuff.github.io/post/mqtt-agent-ledbox/</link>

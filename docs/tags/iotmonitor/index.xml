@@ -6,11 +6,7 @@
     <description>Recent content in iotmonitor on MQTTIotStuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2008–2021, PFreydiere; all rights reserved.</copyright>
-    <lastBuildDate>Mon, 01 Nov 2021 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://mqttiotstuff.github.io/tags/iotmonitor/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 01 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://mqttiotstuff.github.io/tags/iotmonitor/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>IotMonitor project</title>
       <link>https://mqttiotstuff.github.io/iotmonitor/</link>

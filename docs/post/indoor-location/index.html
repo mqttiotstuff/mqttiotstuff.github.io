@@ -3,7 +3,7 @@
 <html lang="en" data-figures="" class="page" data-mode="dim">
   <head>  <title>Indoor Location and Cyber Monitoring | MQTTIotStuff</title>
   <meta charset='utf-8'>
-  <meta name="generator" content="Hugo 0.68.3" />
+  <meta name="generator" content="Hugo 0.89.1" />
   <meta name = 'viewport' content = 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no'>
   <meta name="follow_it-verification-code" content="lCsAWm7BjWZQMhNk2SjZ"/>
   <meta http-equiv = 'X-UA-Compatible' content = 'IE=edge'>
@@ -42,8 +42,8 @@
     
     
     <link rel="preload" href="https://mqttiotstuff.github.io/css/styles.d8b712dc749fd22167a2d6eb9e2425b574a130b0af9c2af72d6015b755df4738dba846197ce4cd35686e3ab06305b0f0bd9f734fb0813d441de841024eff96ec.css" integrity = "sha512-2LcS3HSf0iFnotbrniQltXShMLCvnCr3LWAVt1XfRzjbqEYZfOTNNWhuOrBjBbDwvZ9zT7CBPUQd6EECTv&#43;W7A==" as="style" crossorigin="anonymous">
-    <link rel="preload" href="https://mqttiotstuff.github.io/js/bundle.min.3d5d1922840b164434530f75646aeab7fc4f348302c991382a34d03adefe6a15b8a664073d577dffe8886753088059b97ee351e22ccb09123d7fc91e3eba8d40.js" as="script" integrity=
-    "sha512-PV0ZIoQLFkQ0Uw91ZGrqt/xPNIMCyZE4KjTQOt7&#43;ahW4pmQHPVd9/&#43;iIZ1MIgFm5fuNR4izLCRI9f8kePrqNQA==" crossorigin="anonymous">
+    <link rel="preload" href="https://mqttiotstuff.github.io/js/bundle.min.e05b4f88aa86cbdaf432a70154da9bf8fbb41c58ea9c553ab927421c92272d1b773fbe5ab5ec18c1be54aa5591d2ae7086d144fe2233307d4709c23f8812f40f.js" as="script" integrity=
+    "sha512-4FtPiKqGy9r0MqcBVNqb&#43;Pu0HFjqnFU6uSdCHJInLRt3P75atewYwb5UqlWR0q5whtFE/iIzMH1HCcI/iBL0Dw==" crossorigin="anonymous">
 
     
     <link rel="stylesheet" type="text/css" href="https://mqttiotstuff.github.io/css/styles.d8b712dc749fd22167a2d6eb9e2425b574a130b0af9c2af72d6015b755df4738dba846197ce4cd35686e3ab06305b0f0bd9f734fb0813d441de841024eff96ec.css" integrity="sha512-2LcS3HSf0iFnotbrniQltXShMLCvnCr3LWAVt1XfRzjbqEYZfOTNNWhuOrBjBbDwvZ9zT7CBPUQd6EECTv&#43;W7A==" crossorigin="anonymous">
@@ -114,7 +114,7 @@
     <use xlink:href="#calendar"></use>
   </svg>
   <span class="post_date">
-    Nov 1, 2021</span>
+    Nov 13, 2021</span>
   <a href = 'https://mqttiotstuff.github.io/tags/indoor' class = 'post_tag button button_translucent'>indoor
   </a>
   <a href = 'https://mqttiotstuff.github.io/tags/location' class = 'post_tag button button_translucent'>location
@@ -161,13 +161,104 @@
 <li>Cyber watching the around wifi devices, or stations</li>
 </ul>
 <p>MQTT Iot Stuff published some month ago an ESP32 software (ESP32 promiscuis mode) GitHub repository, monitoring either BLE (Blue Tooth Low energy), and Wifi communication around the ESP32. This monitoring permit to watch the Wifi space and BLE, and grab the emitting information as well as the sender references.</p>
-<h3 id="esp32-promiscious-mode-and-ble-scanning">ESP32 Promiscious mode and BLE scanning</h3>
+<p>A simple usage of this projet, permit to makes some presence detection, but, using a bit more hardware, indoor location is also possible.</p>
+<p>In this setup, the approach use an active ebeacon as the emitter, with no intelligence. This perspective permit to have a lot of ebacon, and the positions can be used in a central way</p>
+<h3 id="the-initial-esp32-promiscious-mode-and-ble-scanning-project">The initial ESP32 Promiscious mode and BLE scanning project</h3>
 <p><a href="https://github.com/mqttiotstuff/ESP32_promiscuis_mode">https://github.com/mqttiotstuff/ESP32_promiscuis_mode</a> project implements a serial device scanning both wifi and ble, and log all the communication signature on a 1 000 0000 bauds serial communication. Scanning all wifi channel and with a 10s BLE scanning, main devices are watched and logger.</p>
 <p>We are currently experimenting causual usage of this serial device around with the <a href="https://github.com/mqttiotstuff/MyMQTTNodeIOT">https://github.com/mqttiotstuff/MyMQTTNodeIOT</a> project for logging and transmitting the information to MQTT Broker.</p>
 <p>Some additional usage of this device and associated software will be published soon for several applications :</p>
 <p>1 -  Wifi device detection, preventing intrusion.</p>
-<p>2 - Presence detection and indoor location (3 devices has been setup to create ble triangulation, as well as wifi).</p>
+<p>2 - BLE Presence detection and indoor location (3 devices has been setup to create ble triangulation, as well as wifi).</p>
 <p><img src="images/esp32_dev.jpg" alt=""></p>
+<h2 id="current-setup">Current Setup</h2>
+<p>Starting learning about the indoor location, using barebone and commodity hardware, the current setup is as follow. This setup permit to leanr about precision and gather metrics, and possible associated behaviour that can be implemented.</p>
+<p><img src="images/setup.png" alt=""></p>
+<p>Stations are electronic hardware, monitoring ble / wifi, and publish the information on a mqtt broker. And associated Location Agent, summarize the informations. An additional simple WebApplication, provide the feedback for displaying the location of the beacons, and wifi.</p>
+<h3 id="stations">Stations</h3>
+<p>Station are composed of 2 esp32 processors, one for wifi and ble acquisition, communicating in MQTT to a centralized broker for analysis.</p>
+<p>These three stations are placed in the inside to cover the needed monitored areas.</p>
+<p><img src="images/map.png" alt=""></p>
+<p>The station positions are marked here in red on the indoor map. To ease the spatial definition, a SVG file has been setup and layers are used to define the stations positions and</p>
+<h4 id="electronic">Electronic</h4>
+<p>The board is composed of a master ESP32 weemos, integrating the wifi connexion to MQTT broker on the left. And an individual ESP32 dev, scanning BLE devices and also Wifi pakets.</p>
+<p><img src="images/electronic_module.jpg" alt=""></p>
+<p>Communication is done using a simple UART, using a simple error correction protocol.</p>
+<h4 id="casing---powersupply">Casing - PowerSupply</h4>
+<p>Electronic board is placed inside a 3D printed box, with an integrated 12v -&gt; 5v converter,</p>
+<p><img src="images/boxes.jpg" alt=""></p>
+<h3 id="beacons-used-for-location">Beacons used for location</h3>
+<p>In this setup, beacons used are these ones, cheaper beacons are available but theses products offers, 3 years of battery life, phone and smartphone compatibilty. Range is about 10 m range in an heavy noisy indoor environment.</p>
+<p><img src="images/detailed_view_beacon.jpg" alt=""></p>
+<p><img src="images/Eddystone-Ibeacon-EEK-N.jpg" alt=""></p>
+<p>This beacon also send some additional informations in the advertizing message, here are the decoded information :</p>
+<p>BLE advertizing payload,</p>
+<p>00000000000000000201061aff4c000215b5b182c7eab14988aa99b5c1517008d90001ef41c5</p>
+<p>the same payload, decoded by <a href="https://reelyactive.github.io/advlib/">https://reelyactive.github.io/advlib/</a> online library</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="ln"> 1</span>{
+<span class="ln"> 2</span>  &#34;type&#34;: &#34;ADVA-48&#34;,
+<span class="ln"> 3</span>  &#34;value&#34;: &#34;000000000000&#34;,
+<span class="ln"> 4</span>  &#34;advHeader&#34;: {
+<span class="ln"> 5</span>    &#34;type&#34;: &#34;ADV_IND&#34;,
+<span class="ln"> 6</span>    &#34;length&#34;: 0,
+<span class="ln"> 7</span>    &#34;txAdd&#34;: &#34;public&#34;,
+<span class="ln"> 8</span>    &#34;rxAdd&#34;: &#34;public&#34;
+<span class="ln"> 9</span>  },
+<span class="ln">10</span>  &#34;advData&#34;: {
+<span class="ln">11</span>    &#34;flags&#34;: [
+<span class="ln">12</span>      &#34;LE General Discoverable Mode&#34;,
+<span class="ln">13</span>      &#34;BR/EDR Not Supported&#34;
+<span class="ln">14</span>    ],
+<span class="ln">15</span>    &#34;manufacturerSpecificData&#34;: {
+<span class="ln">16</span>      &#34;companyName&#34;: &#34;Apple, Inc.&#34;,
+<span class="ln">17</span>      &#34;companyIdentifierCode&#34;: &#34;004c&#34;,
+<span class="ln">18</span>      &#34;data&#34;: &#34;0215b5b182c7eab14988aa99b5c1517008d90001ef41c5&#34;,
+<span class="ln">19</span>      &#34;iBeacon&#34;: {
+<span class="ln">20</span>        &#34;uuid&#34;: &#34;b5b182c7eab14988aa99b5c1517008d9&#34;,
+<span class="ln">21</span>        &#34;major&#34;: &#34;0001&#34;,
+<span class="ln">22</span>        &#34;minor&#34;: &#34;ef41&#34;,
+<span class="ln">23</span>        &#34;txPower&#34;: &#34;-59dBm&#34;,
+<span class="ln">24</span>        &#34;licenseeName&#34;: &#34;Unknown&#34;
+<span class="ln">25</span>      }
+<span class="ln">26</span>    }
+<span class="ln">27</span>  }
+<span class="ln">28</span>}
+</code></pre></div><h2 id="agents-and-applications">Agents and applications</h2>
+<h4 id="the-location-agent-indoorpy">The location agent (Indoor.py).</h4>
+<p>This MQTT Python3 agent manage the stations information and consolidate the incoming frames. This agent is hosted on a simple RPI, along with the mqtt broker. It has several responsibilities :</p>
+<ul>
+<li>This agent takes the incoming RAW serial informations, (see project), and convert it to proper isolated MQTT topics, as below:</li>
+</ul>
+<p>Published informations are organized by BLE ID, (ie: f57acbc441ef), and publish , as the frames are coming, the associated information BY stations (esp20, esp21, esp22 .. ). A saved model inform about the conversion between the RSSI information and associated distance.</p>
+<p><img src="images/mqtt_agent.png" alt=""></p>
+<ul>
+<li>This agent also create a 10s informations (last10), with the rssi informations and computed distance.</li>
+<li>This agent also manage the recording of positions in calibration (a start/stop external command), saves the positions and known position to be able to fit the created model.</li>
+</ul>
+<p>The javascript application display then the informations and make the triliteration to interpolate the position from the measures RSSI and associated distances. Given a device, the application show the distance from the stations, and a small circle show the triliterate position.</p>
+<p><video src="images/application_show.webm" controls autoplay ></video></p>
+<p>Some additional informations are displayed for calibration, and measure checks.</p>
+<p>Triliteration algorithm used is the one of</p>
+<h2 id="measures-and-associated-models">Measures and associated Models</h2>
+<p>Recording the RSSI informations from BLE device (ebeacon), some triggering measures have been observed. The display of the measures show the following distributions. Indoor obstacle clearly have impacts on the measurement. Model should integrated these elements for enhance positions.</p>
+<p><img src="images/dispersion.png" alt=""></p>
+<p>In the actual measures, the scan is 10s long, with duplicates. we can also see a quite large Standard deviation in measures, as well as some &ldquo;multiple heads&rdquo; measures counts.</p>
+<p>Detailed information about the distributions can be analysed here : <a href="images/2021-11_Analyse_Dispersion.pdf">2021-11_Analyse_Dispersion.pdf</a></p>
+<h3 id="setting-up-a-first-model">Setting up a first model</h3>
+<p>In a first approach, a simple root square analysis has been made on the 3 stations. <a href="images/first_model_fit.pdf">First Model Fit</a>.</p>
+<p>Depending on the calibration points used, the model may not be converging, or trying to reduce the loss function. In this model, the 3 stations have been used, whereas on some measures, some stations where not gathering informations on the calibration position (range issue on the receiver part).</p>
+<p>a 3-5s response time is achieved in this setup.</p>
+<p>a 1 - 1.5 m range approximation has also been observed. It is also observed that the indoor obstacles also change the measures</p>
+<h3 id="improving-the-first-model">Improving the first model</h3>
+<p>In the second model, a &ldquo;per station&rdquo;, and also combinaisons of stations tuples. This approach permit to have a better precision, depending on the available positionning stations in the range.</p>
+<p>A dynamic following of the beacon has also been part of the process. This device following, act as a kind of &ldquo;controled loop&rdquo;, and permit to have a more stable position (no jitters), but also integrate inferences logics for possible positions when only 2 stations are available.</p>
+<p>The number of measures by seconds is also taken in the model and following, giving in this case much more confidence in the station providing more informations per seconds.</p>
+<p>In this current experiment, it shows that indoor location can be easily setup using commodity hardware, with a 1-1.5 m sensing precision. This precision is largely enought for some typical applications :</p>
+<ul>
+<li>assets location, as well as pets.</li>
+<li>triggering actuator based on the location (lights, temperature, phone)</li>
+</ul>
+<p>The price also</p>
+<p>In a industrial approach the calibration phase is one of the key issue to takle, and permit to accelerate the usages (after stations positionning and powering.)</p>
   </article>
 <aside class="sidebar">
   <section class="sidebar_inner">
@@ -497,7 +588,7 @@
   </div>
 </footer>
 
-    <script type="text/javascript" src = "https://mqttiotstuff.github.io/js/bundle.min.3d5d1922840b164434530f75646aeab7fc4f348302c991382a34d03adefe6a15b8a664073d577dffe8886753088059b97ee351e22ccb09123d7fc91e3eba8d40.js" integrity=
-    "sha512-PV0ZIoQLFkQ0Uw91ZGrqt/xPNIMCyZE4KjTQOt7&#43;ahW4pmQHPVd9/&#43;iIZ1MIgFm5fuNR4izLCRI9f8kePrqNQA==" crossorigin="anonymous"></script>
+    <script type="text/javascript" src = "https://mqttiotstuff.github.io/js/bundle.min.e05b4f88aa86cbdaf432a70154da9bf8fbb41c58ea9c553ab927421c92272d1b773fbe5ab5ec18c1be54aa5591d2ae7086d144fe2233307d4709c23f8812f40f.js" integrity=
+    "sha512-4FtPiKqGy9r0MqcBVNqb&#43;Pu0HFjqnFU6uSdCHJInLRt3P75atewYwb5UqlWR0q5whtFE/iIzMH1HCcI/iBL0Dw==" crossorigin="anonymous"></script>
   </body>
 </html>
