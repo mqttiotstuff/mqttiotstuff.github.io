@@ -3,13 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://mqttiotstuff.github.io/</loc>
-    <lastmod>2021-11-13T00:00:00+00:00</lastmod>
+    <lastmod>2022-01-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mqttiotstuff.github.io/tags/animation/</loc>
+    <lastmod>2022-01-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://mqttiotstuff.github.io/categories/</loc>
-    <lastmod>2021-11-13T00:00:00+00:00</lastmod>
+    <lastmod>2022-01-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://mqttiotstuff.github.io/tags/device/</loc>
-    <lastmod>2021-11-13T00:00:00+00:00</lastmod>
+    <lastmod>2022-01-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mqttiotstuff.github.io/categories/generators/</loc>
+    <lastmod>2022-01-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mqttiotstuff.github.io/tags/led/</loc>
+    <lastmod>2022-01-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mqttiotstuff.github.io/post/ledbox_language_python/</loc>
+    <lastmod>2022-01-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mqttiotstuff.github.io/post/</loc>
+    <lastmod>2022-01-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mqttiotstuff.github.io/tags/python/</loc>
+    <lastmod>2022-01-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mqttiotstuff.github.io/categories/python/</loc>
+    <lastmod>2022-01-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mqttiotstuff.github.io/tags/</loc>
+    <lastmod>2022-01-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://mqttiotstuff.github.io/tags/indoor/</loc>
     <lastmod>2021-11-13T00:00:00+00:00</lastmod>
@@ -21,12 +45,6 @@
     <lastmod>2021-11-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://mqttiotstuff.github.io/categories/location/</loc>
-    <lastmod>2021-11-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mqttiotstuff.github.io/post/</loc>
-    <lastmod>2021-11-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mqttiotstuff.github.io/tags/</loc>
     <lastmod>2021-11-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://mqttiotstuff.github.io/tags/iotmonitor/</loc>
@@ -48,9 +66,6 @@
     <lastmod>2021-10-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://mqttiotstuff.github.io/post/calm-tech/</loc>
-    <lastmod>2021-10-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mqttiotstuff.github.io/tags/python/</loc>
     <lastmod>2021-10-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://mqttiotstuff.github.io/tags/time/</loc>
@@ -86,9 +101,6 @@
     <loc>https://mqttiotstuff.github.io/post/mqtt-agent-ledbox/</loc>
     <lastmod>2021-03-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mqttiotstuff.github.io/categories/python/</loc>
-    <lastmod>2021-03-14T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://mqttiotstuff.github.io/post/mqtt-agent-repository/</loc>
     <lastmod>2020-11-28T00:00:00+00:00</lastmod>
   </url><url>
@@ -105,6 +117,8 @@
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://mqttiotstuff.github.io/post/3d-printing-electronic-boxes/</loc>
+  </url><url>
+    <loc>https://mqttiotstuff.github.io/post/letbox_language_python/</loc>
   </url><url>
     <loc>https://mqttiotstuff.github.io/tags/index/</loc>
   </url>
