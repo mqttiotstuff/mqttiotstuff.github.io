@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MQTTIotStuff</title>
+    <link>https://mqttiotstuff.github.io/</link>
+    <description>Recent content on MQTTIotStuff</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2008–2021, PFreydiere; all rights reserved.</copyright>
+    <lastBuildDate>Wed, 26 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mqttiotstuff.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LedBox language animation building blocks</title>
+      <link>https://mqttiotstuff.github.io/post/ledbox_language_python/</link>
+      <pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mqttiotstuff.github.io/post/ledbox_language_python/</guid>
+      <description>In this more practical followup article, we&amp;rsquo;ll focus on the led language implementation using python. Led box permit to display some led animation using an individually controlled led strip using ws2812 chip.
+Hightly configurable animations implementation is shown and presented here, using python generators functions. This article, aims to explain the benefits of such approach in creating the grammar for smart led animations and smart feedback for such devices.</description>
+    </item>
+    
+    <item>
+      <title>Indoor Location and Cyber Monitoring</title>
+      <link>https://mqttiotstuff.github.io/post/indoor-location/</link>
+      <pubDate>Sat, 13 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mqttiotstuff.github.io/post/indoor-location/</guid>
+      <description>&lt;p&gt;Watching for BlueTooth devices, or Beacon as well as Wifi stations, can be easily done, using a simple ESP32 device.  Several applications of this capability :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Indoor location&lt;/li&gt;
+&lt;li&gt;Presence detection&lt;/li&gt;
+&lt;li&gt;Cyber watching the around wifi devices, or stations&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>IotMonitor project</title>
+      <link>https://mqttiotstuff.github.io/iotmonitor/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mqttiotstuff.github.io/iotmonitor/</guid>
+      <description>IOTMonitor project What&amp;rsquo;s new on version 0.2.2:
+On the 0.2.2 version, several small enhacements : - Mqtt client specification on the config.toml - building from docker, either release and dev zig version  IotMonitor is an effortless and lightweight mqtt monitoring for devices (IOT things) and agents (software mqtt client) on Linux.
+IotMonitor aims to solve the &amp;ldquo;always up&amp;rdquo; problem of large IOT devices and agents system. This project is successfully used every day for running smart home automation system.</description>
+    </item>
+    
+    <item>
+      <title>Introducing Calm Tech</title>
+      <link>https://mqttiotstuff.github.io/post/calm-tech/</link>
+      <pubDate>Sun, 31 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mqttiotstuff.github.io/post/calm-tech/</guid>
+      <description>&lt;p&gt;When informations and alerts are too much invasive in every day life, leading to high cognitive loads. Having the right information at the right time in the right place is the key to be efficient and preserve stress free attitudes. Designing Calm Technology IOT devices are nowadays mandatory to integrate such logics at home, to stay comfortable.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Time Expression RegExp triggers to enhance global control</title>
+      <link>https://mqttiotstuff.github.io/post/time-regexp-expression/</link>
+      <pubDate>Sun, 31 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mqttiotstuff.github.io/post/time-regexp-expression/</guid>
+      <description>&lt;p&gt;&lt;code&gt;Compilation and Language Theory&lt;/code&gt; is a way to transform &amp;ldquo;Low level&amp;rdquo; informations into a more evolved action. This ability, in ambiant systems context,  leverage the synthetization of a couple of actions or &amp;ldquo;events&amp;rdquo;, into a more human understandable action. This decomposition lead to more evolved semantic that can help design more sophisticated logics.&lt;/p&gt;
+&lt;p&gt;Applications of this is to enhance and extend existing actuators, and triggering timed based actions or events. Using a Button for example, long press button, or sequences of buttons can be transformed in actions, in the same way the &lt;a href=&#34;https://fr.wikipedia.org/wiki/Code_Morse_international&#34;&gt;Morse Code&lt;/a&gt; has been setted up in the 19th century for transmissing Textual messages, using a simple tone.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Growing Plant Prototype Station</title>
+      <link>https://mqttiotstuff.github.io/post/growing-plant/</link>
+      <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mqttiotstuff.github.io/post/growing-plant/</guid>
+      <description>This prototype is an expermiment for adding to the smart home system, some additional capabilities to monitor plants and growing plants.
+The IOT Growing plant station The growing plant is hosted in the living room, and permit us to grow seeds before planting them on the outside. The growth rate has been observed to be about 4 time faster than outside growth. There are still ways of improvment but gives good results in preparing and growing aromatic plants or even small vegetables.</description>
+    </item>
+    
+    <item>
+      <title>IotMonitor 0.2.2</title>
+      <link>https://mqttiotstuff.github.io/post/iotmonitor-annonce-0.2.2/</link>
+      <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mqttiotstuff.github.io/post/iotmonitor-annonce-0.2.2/</guid>
+      <description>IOTMonitor 0.2.2 - add clientid in config to permit multiple instances of iotmonitor - fix 0.8 compilation  See https://github.com/mqttiotstuff/iotmonitor for changelog, version</description>
+    </item>
+    
+    <item>
+      <title>Experiment around LedBoxes</title>
+      <link>https://mqttiotstuff.github.io/post/mqtt-agent-ledbox/</link>
+      <pubDate>Sun, 14 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mqttiotstuff.github.io/post/mqtt-agent-ledbox/</guid>
+      <description>&lt;p&gt;Working part of my time at home, i needed to be informed about all my systems in a non invasive way,  following the calm technology trend to stay focus on my primary working task. With this orientation,  I&amp;rsquo;ve then conduct some experiments building a new device standing on the desk and bring system informations and alerts i choose.&lt;/p&gt;
+&lt;p&gt;Here is how the ledbox came in. I&amp;rsquo;ve just wished to experiment in practice the affordance of such device and its communication ability and attention retention. This device is composed of a led banner rolled in a semi transparent box, and also containing a body sensor and 4 touch buttons on the top.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/mqttiotstuff/MyMQTTNodeIOT/master/hardware/SimpleDevice05/ledbox2.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;This device is connected to MQTT brocker, and receive the leds status to display. A bit rought at the first glace, but the work on the user&amp;rsquo;s experience bring interesting points on using low light displays and smooth transitions.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Freeing some Mqtt agents python implementation</title>
+      <link>https://mqttiotstuff.github.io/post/mqtt-agent-repository/</link>
+      <pubDate>Sat, 28 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mqttiotstuff.github.io/post/mqtt-agent-repository/</guid>
+      <description>&lt;p&gt;Mqtt iot system bring value in every day&amp;rsquo;s life. This is because of the existing agents that help system live.
+Some agents have been freed in repository, for preview. As my own system grow and used,  there are still semantic maturing, and testing.
+These implementation are in python 3, to ease the read and let users understand and extend.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://mqttiotstuff.github.io/articles/</link>
+      <pubDate>Fri, 18 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mqttiotstuff.github.io/articles/</guid>
+      <description>Building Iot System </description>
+    </item>
+    
+    <item>
+      <title>IotMonitor v0.1</title>
+      <link>https://mqttiotstuff.github.io/post/iotmonitor-annonce/</link>
+      <pubDate>Fri, 18 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mqttiotstuff.github.io/post/iotmonitor-annonce/</guid>
+      <description>EffortLess MQTT monitoring.
+After a couple of month, and testing, the first version of iotmonitor is out as a published version. This initial version has been used about one year for manging a smart home system.
+IOTMonitor See https://github.com/mqttiotstuff/iotmonitor for changelog, version</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://mqttiotstuff.github.io/about/</link>
+      <pubDate>Wed, 18 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mqttiotstuff.github.io/about/</guid>
+      <description>Several Tools to build MQTT Iot System for either Home or Offices.
+Learn more and contribute on GitHub.
+WebSite Powered by Hugo thank&amp;rsquo;s to all contributors,
+Using customized hugo-clarity theme
+feel free To contact Us  for any publication issues</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://mqttiotstuff.github.io/archives/</link>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mqttiotstuff.github.io/archives/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://mqttiotstuff.github.io/post/3d-printing-electronic-boxes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mqttiotstuff.github.io/post/3d-printing-electronic-boxes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://mqttiotstuff.github.io/post/letbox_language_python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mqttiotstuff.github.io/post/letbox_language_python/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

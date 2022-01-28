@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>python on MQTTIotStuff</title>
+    <link>https://mqttiotstuff.github.io/categories/python/</link>
+    <description>Recent content in python on MQTTIotStuff</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2008–2021, PFreydiere; all rights reserved.</copyright>
+    <lastBuildDate>Wed, 26 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mqttiotstuff.github.io/categories/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LedBox language animation building blocks</title>
+      <link>https://mqttiotstuff.github.io/post/ledbox_language_python/</link>
+      <pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mqttiotstuff.github.io/post/ledbox_language_python/</guid>
+      <description>In this more practical followup article, we&amp;rsquo;ll focus on the led language implementation using python. Led box permit to display some led animation using an individually controlled led strip using ws2812 chip.
+Hightly configurable animations implementation is shown and presented here, using python generators functions. This article, aims to explain the benefits of such approach in creating the grammar for smart led animations and smart feedback for such devices.</description>
+    </item>
+    
+    <item>
+      <title>Experiment around LedBoxes</title>
+      <link>https://mqttiotstuff.github.io/post/mqtt-agent-ledbox/</link>
+      <pubDate>Sun, 14 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mqttiotstuff.github.io/post/mqtt-agent-ledbox/</guid>
+      <description>&lt;p&gt;Working part of my time at home, i needed to be informed about all my systems in a non invasive way,  following the calm technology trend to stay focus on my primary working task. With this orientation,  I&amp;rsquo;ve then conduct some experiments building a new device standing on the desk and bring system informations and alerts i choose.&lt;/p&gt;
+&lt;p&gt;Here is how the ledbox came in. I&amp;rsquo;ve just wished to experiment in practice the affordance of such device and its communication ability and attention retention. This device is composed of a led banner rolled in a semi transparent box, and also containing a body sensor and 4 touch buttons on the top.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/mqttiotstuff/MyMQTTNodeIOT/master/hardware/SimpleDevice05/ledbox2.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;This device is connected to MQTT brocker, and receive the leds status to display. A bit rought at the first glace, but the work on the user&amp;rsquo;s experience bring interesting points on using low light displays and smooth transitions.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Freeing some Mqtt agents python implementation</title>
+      <link>https://mqttiotstuff.github.io/post/mqtt-agent-repository/</link>
+      <pubDate>Sat, 28 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mqttiotstuff.github.io/post/mqtt-agent-repository/</guid>
+      <description>&lt;p&gt;Mqtt iot system bring value in every day&amp;rsquo;s life. This is because of the existing agents that help system live.
+Some agents have been freed in repository, for preview. As my own system grow and used,  there are still semantic maturing, and testing.
+These implementation are in python 3, to ease the read and let users understand and extend.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

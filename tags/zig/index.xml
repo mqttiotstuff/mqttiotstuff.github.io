@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>zig on MQTTIotStuff</title>
+    <link>https://mqttiotstuff.github.io/tags/zig/</link>
+    <description>Recent content in zig on MQTTIotStuff</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2008–2021, PFreydiere; all rights reserved.</copyright>
+    <lastBuildDate>Mon, 01 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://mqttiotstuff.github.io/tags/zig/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IotMonitor project</title>
+      <link>https://mqttiotstuff.github.io/iotmonitor/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mqttiotstuff.github.io/iotmonitor/</guid>
+      <description>IOTMonitor project What&amp;rsquo;s new on version 0.2.2:
+On the 0.2.2 version, several small enhacements : - Mqtt client specification on the config.toml - building from docker, either release and dev zig version  IotMonitor is an effortless and lightweight mqtt monitoring for devices (IOT things) and agents (software mqtt client) on Linux.
+IotMonitor aims to solve the &amp;ldquo;always up&amp;rdquo; problem of large IOT devices and agents system. This project is successfully used every day for running smart home automation system.</description>
+    </item>
+    
+  </channel>
+</rss>

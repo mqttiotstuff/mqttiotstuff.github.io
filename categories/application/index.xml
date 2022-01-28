@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>application on MQTTIotStuff</title>
+    <link>https://mqttiotstuff.github.io/categories/application/</link>
+    <description>Recent content in application on MQTTIotStuff</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2008–2021, PFreydiere; all rights reserved.</copyright>
+    <lastBuildDate>Sun, 13 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://mqttiotstuff.github.io/categories/application/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Growing Plant Prototype Station</title>
+      <link>https://mqttiotstuff.github.io/post/growing-plant/</link>
+      <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mqttiotstuff.github.io/post/growing-plant/</guid>
+      <description>This prototype is an expermiment for adding to the smart home system, some additional capabilities to monitor plants and growing plants.
+The IOT Growing plant station The growing plant is hosted in the living room, and permit us to grow seeds before planting them on the outside. The growth rate has been observed to be about 4 time faster than outside growth. There are still ways of improvment but gives good results in preparing and growing aromatic plants or even small vegetables.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on MQTTIotStuff</title>
+    <link>https://mqttiotstuff.github.io/categories/</link>
+    <description>Recent content in Categories on MQTTIotStuff</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2008–2021, PFreydiere; all rights reserved.</copyright>
+    <lastBuildDate>Wed, 26 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mqttiotstuff.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>generators</title>
+      <link>https://mqttiotstuff.github.io/categories/generators/</link>
+      <pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mqttiotstuff.github.io/categories/generators/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://mqttiotstuff.github.io/categories/python/</link>
+      <pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mqttiotstuff.github.io/categories/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>location</title>
+      <link>https://mqttiotstuff.github.io/categories/location/</link>
+      <pubDate>Sat, 13 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mqttiotstuff.github.io/categories/location/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>monitoring</title>
+      <link>https://mqttiotstuff.github.io/categories/monitoring/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mqttiotstuff.github.io/categories/monitoring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>concepts</title>
+      <link>https://mqttiotstuff.github.io/categories/concepts/</link>
+      <pubDate>Sun, 31 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mqttiotstuff.github.io/categories/concepts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tools</title>
+      <link>https://mqttiotstuff.github.io/categories/tools/</link>
+      <pubDate>Sun, 31 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mqttiotstuff.github.io/categories/tools/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>application</title>
+      <link>https://mqttiotstuff.github.io/categories/application/</link>
+      <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mqttiotstuff.github.io/categories/application/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

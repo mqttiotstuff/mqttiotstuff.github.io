@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>location on MQTTIotStuff</title>
+    <link>https://mqttiotstuff.github.io/categories/location/</link>
+    <description>Recent content in location on MQTTIotStuff</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2008–2021, PFreydiere; all rights reserved.</copyright>
+    <lastBuildDate>Sat, 13 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://mqttiotstuff.github.io/categories/location/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Indoor Location and Cyber Monitoring</title>
+      <link>https://mqttiotstuff.github.io/post/indoor-location/</link>
+      <pubDate>Sat, 13 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mqttiotstuff.github.io/post/indoor-location/</guid>
+      <description>&lt;p&gt;Watching for BlueTooth devices, or Beacon as well as Wifi stations, can be easily done, using a simple ESP32 device.  Several applications of this capability :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Indoor location&lt;/li&gt;
+&lt;li&gt;Presence detection&lt;/li&gt;
+&lt;li&gt;Cyber watching the around wifi devices, or stations&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
