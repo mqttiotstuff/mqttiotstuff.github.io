@@ -32,10 +32,10 @@ Giving systems informations without sounds and with a low attention needs is a h
 
 
 It cames first with an idea of coding a couple of meaning animations, teaching the systems failures and the several alerts i may need.
-After a couple of month the meaning associated to alarms, needs to be richer that the initial envisionned goal. In practive, and add more sens easily, an expression parser has been developed to be able to easily compose some led animation’s blocks. 
+After a couple of month the meaning associated to alarms, needs to be richer that the initial envisioned goal. In practice, and add more sens easily, an expression parser has been developed to be able to easily compose some led animation’s blocks. 
 
 
-This capability has leverage the ability add more informations capabilities to the device. Taking the definition from a mqtt message, in practice this capability offer a real disruptive communication ability , integrating more and more meaning externally.  Some conventions are explored to make birth of a new "led language".
+This capability has leverage the ability add more informations capabilities to the device. Taking the definition from a Mqtt message, in practice this capability offer a real disruptive communication ability , integrating more and more meaning externally.  Some conventions are explored to make birth of a new "led language".
 
 Even if this process is still on the craft table, things are tunring more and more relevant on the communication ability of the device. Some other new ideas are also on the design stage, creating a small language. The experience seems promising.
 
