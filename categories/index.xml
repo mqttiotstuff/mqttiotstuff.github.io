@@ -6,7 +6,25 @@
     <description>Recent content in Categories on MQTTIotStuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2008–2021, PFreydiere; all rights reserved.</copyright>
-    <lastBuildDate>Wed, 26 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mqttiotstuff.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 27 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mqttiotstuff.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>description</title>
+      <link>https://mqttiotstuff.github.io/categories/description/</link>
+      <pubDate>Sun, 27 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mqttiotstuff.github.io/categories/description/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>iot</title>
+      <link>https://mqttiotstuff.github.io/categories/iot/</link>
+      <pubDate>Sun, 27 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mqttiotstuff.github.io/categories/iot/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>generators</title>
       <link>https://mqttiotstuff.github.io/categories/generators/</link>

@@ -6,7 +6,16 @@
     <description>Recent content on MQTTIotStuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2008–2021, PFreydiere; all rights reserved.</copyright>
-    <lastBuildDate>Wed, 26 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mqttiotstuff.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 27 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mqttiotstuff.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why Iot System Description, SSN &amp; IOT-Light based onthologies</title>
+      <link>https://mqttiotstuff.github.io/post/iot-system-description/</link>
+      <pubDate>Sun, 27 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mqttiotstuff.github.io/post/iot-system-description/</guid>
+      <description>&lt;p&gt;Creating dictionaries of existing sensors and actuators, leverage their usage to extend their usages for  intelligent ambiant systems. In this article we&amp;rsquo;ll cover the needs and benefits to setup such descriptions, and choosen tools to achieve ambiant and intelligent systems.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>LedBox language animation building blocks</title>
       <link>https://mqttiotstuff.github.io/post/ledbox_language_python/</link>
@@ -129,11 +138,10 @@ IOTMonitor See https://github.com/mqttiotstuff/iotmonitor for changelog, version
       <pubDate>Wed, 18 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>https://mqttiotstuff.github.io/about/</guid>
-      <description>Several Tools to build MQTT Iot System for either Home or Offices.
+      <description>Several Tools to build MQTT Iot System for either Home or Professionals.
 Learn more and contribute on GitHub.
-WebSite Powered by Hugo thank&amp;rsquo;s to all contributors,
-Using customized hugo-clarity theme
-feel free To contact Us  for any publication issues</description>
+WebSite Powered by Hugo thank&amp;rsquo;s to all contributors, Using customized hugo-clarity theme
+feel free To contact Us  for any publications issues</description>
     </item>
     
     <item>

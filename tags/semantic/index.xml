@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>semantic on MQTTIotStuff</title>
+    <link>https://mqttiotstuff.github.io/tags/semantic/</link>
+    <description>Recent content in semantic on MQTTIotStuff</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2008–2021, PFreydiere; all rights reserved.</copyright>
+    <lastBuildDate>Sun, 27 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mqttiotstuff.github.io/tags/semantic/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why Iot System Description, SSN &amp; IOT-Light based onthologies</title>
+      <link>https://mqttiotstuff.github.io/post/iot-system-description/</link>
+      <pubDate>Sun, 27 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mqttiotstuff.github.io/post/iot-system-description/</guid>
+      <description>&lt;p&gt;Creating dictionaries of existing sensors and actuators, leverage their usage to extend their usages for  intelligent ambiant systems. In this article we&amp;rsquo;ll cover the needs and benefits to setup such descriptions, and choosen tools to achieve ambiant and intelligent systems.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
