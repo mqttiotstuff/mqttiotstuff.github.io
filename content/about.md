@@ -7,17 +7,15 @@ author = "Mqtt IOT Stuff"
 
 +++
 
-Several Tools to build MQTT Iot System for either Home or Offices.
+Several Tools to build MQTT Iot System for either Home or Professionals.
 
 Learn more and contribute on [GitHub](https://github.com/mqttiotstuff).
 
 
 
 WebSite Powered by [Hugo](https://gohugo.io/) thank's to all contributors, 
-
 Using customized `hugo-clarity` theme
 
 
-
-feel free <a href="mailto:webmaster@frett27.net"/> To contact Us </a> for any publication issues
+feel free <a href="mailto:webmaster@frett27.net"/> To contact Us </a> for any publications issues
 
