@@ -14,7 +14,7 @@ series = ["Themes Guide"]
 aliases = ["ledbox-language"]
 
 # thumbnail = "images/cloud-symbol-inside-a-circle.png"
-thumbnail = "https://raw.githubusercontent.com/mqttiotstuff/mqtt-agent-ledbox/master/doc/images/parallel_parallel_dotanim_red__1__11__rain_blue____dotanim_green_1_9__.avi.gif"
+thumbnail = "https://raw.githubusercontent.com/mqttiotstuff/mqtt-agent-ledbox/master/doc/images/parallel_shift_fg_fring_2_blue___0__shift_fg_fring_1_green____10__shift_sequence_fg_fring_0_uipurple____flash_uipurple____20___sequence_parallel_slow_slow_square_cgcolor_uipurple__4_2_____rain_blue____clear___.avi.gif"
 
 +++
 
