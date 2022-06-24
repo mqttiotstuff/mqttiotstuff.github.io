@@ -14,10 +14,22 @@
     <loc>https://mqttiotstuff.github.io/tags/device/</loc>
     <lastmod>2022-06-24T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://mqttiotstuff.github.io/post/led_strip_makingof/</loc>
+    <lastmod>2022-06-24T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://mqttiotstuff.github.io/categories/iot/</loc>
     <lastmod>2022-06-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://mqttiotstuff.github.io/tags/iot-light/</loc>
+    <lastmod>2022-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mqttiotstuff.github.io/tags/led/</loc>
+    <lastmod>2022-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mqttiotstuff.github.io/tags/ledbox/</loc>
+    <lastmod>2022-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mqttiotstuff.github.io/tags/mqtt/</loc>
     <lastmod>2022-06-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://mqttiotstuff.github.io/tags/onthology/</loc>
@@ -44,6 +56,9 @@
     <loc>https://mqttiotstuff.github.io/post/iot-system-description/</loc>
     <lastmod>2022-06-24T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://mqttiotstuff.github.io/tags/ws2812/</loc>
+    <lastmod>2022-06-24T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://mqttiotstuff.github.io/tags/xml/</loc>
     <lastmod>2022-06-24T00:00:00+00:00</lastmod>
   </url><url>
@@ -51,9 +66,6 @@
     <lastmod>2022-01-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://mqttiotstuff.github.io/categories/generators/</loc>
-    <lastmod>2022-01-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mqttiotstuff.github.io/tags/led/</loc>
     <lastmod>2022-01-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://mqttiotstuff.github.io/post/ledbox_language_python/</loc>
