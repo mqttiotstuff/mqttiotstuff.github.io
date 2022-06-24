@@ -1,5 +1,5 @@
 +++
-title = "Time Expression RegExp triggers to enhance global control"
+title = "Time Expression RegExp triggers to improve meaning"
 description = "Add more capabilities to context, buttons and feedback"
 date = "2021-10-31"
 aliases = ["event-time-base-triggers" ]
@@ -15,15 +15,15 @@ categories = [
 
 +++
 
-`Compilation and Language Theory` is a way to transform "Low level" informations into a more evolved action. This ability, in ambiant systems context,  leverage the synthetization of a couple of actions or "events", into a more human understandable action. This decomposition lead to more evolved semantic that can help design more sophisticated logics.
+`Compilation and Language Theory` is a way to transform "Low level" informations into a more evolved action. This ability, in the ambiant and intelligent systems,  leverage the summarizing sparsed actions or "events", into a more human understandable meaning. This decomposition raise the information to a more evolved semantic that can help design more sophisticated logics. 
 
-Applications of this is to enhance and extend existing actuators, and triggering timed based actions or events. Using a Button for example, long press button, or sequences of buttons can be transformed in actions, in the same way the [Morse Code](https://fr.wikipedia.org/wiki/Code_Morse_international) has been setted up in the 19th century for transmissing Textual messages, using a simple tone.
+Applications of these tools also enhance and extend already existing devices, adding timed based actions triggering. As an example, a simple device button can then understand long pressures, or fast sequences that can be transformed in different actions ( in the same way the [Morse Code](https://fr.wikipedia.org/wiki/Code_Morse_international) has been setted up in the 19th century for transmissing Textual messages, using a simple tone).
 
  
 
 <!--more-->
 
-### Bases of Timed Regular Expression patterns context using an example
+### Introducing Timed Regular Expression patterns using an example
 
 In the understanding of the Timed Regular Expression grammar, we can easily start with a simple example, and details the needs for expressing such logics.
 
