@@ -1,7 +1,7 @@
 +++
 title = "Why Iot System Description, SSN & IOT-Light based onthologies"
 description = "Dealing with managing lots of iot systems"
-date = "2022-02-27"
+date = "2022-06-24"
 aliases = ["semantic-description-iot" ]
 author = "Mqtt IOT Stuff"
 thumbnail = "post/iot-system-description/images/iot-light-schema.jpg"
@@ -15,26 +15,29 @@ categories = [
 
 +++
 
-Creating dictionaries of existing sensors and actuators, leverage their usage to extend their usages for  intelligent ambiant systems. In this article we'll cover the needs and benefits to setup such descriptions, and choosen tools to achieve ambiant and intelligent systems.
+Using heterogeneous systems, lead to creating dictionaries of existing sensors and actuators, leverage and extend their usages for intelligent ambiant systems. 
+
+In this article we'll cover a use of such description, on smart home system,  based on W3C standards and Onthologies. 
 
 
 <!--more-->
 
 
-# Iot.frett.net Ontology needs
+# Iot.frett.net Ontology needs for description
 
 
-Living or even dealing with extremly adaptable systems, requires a global description vision and associated dictionaries. Even if these dictionary may seems irrelevant at a first glade. Their existence aims to automatically manage :
-- system evolutions
-- inventory
-- construct new services based on description
+Dealing with extremly adaptable and heterogeneous systems, may requires a description. This description setup has many advantages :
+- system evolutions (adding new devices to the system by configuration)
+- inventory and documentation (knowing what exists, and their protocols)
+- construct new services based also on description (bots)
 
-These mentionned bullets points are decribed in the follow of this document, to argue why such a description is needed and the benefits of this.
+These mentionned bullets points are explained in a more deep insight in the following, to put it in perspective on real usage and its benefits. For a Fast scan of the article, you may want to look first at the benefits and application, jump then to the [Application Section](#ApplicationSection).
+
 
 
 ## Managing and handling systems evolutions
 
-Physical devices expose multiple sensors and associated actuators. These small embedded plateforms have their own capabilities, and protocols. When changing, replacing or completing global system with such plateforms, user-oriented services have to be maintained and furnish same informations. (interfaced role orientation).
+Intelligent physical devices expose multiple sensors and associated actuators. These small embedded plateforms have their own capabilities, and protocols. When changing, replacing or completing global system with such plateforms, user-oriented services have to be maintained and furnish same informations. (interfaced role orientation).
 
 Maintaining measures from physical sensors needs to be periodically requalified with goldens, if not monitored using other existing references (same kind of measures nearby). 
 
@@ -77,6 +80,7 @@ In the current setup, and additional specific extension has been added for MQTT 
 
 ![](images/individuals.png)
 
+[](#ApplicationSection)
 
 # Applications
 
@@ -118,7 +122,7 @@ Device that isSubSystemOf some (PhysicalObject that 'has deployment' value Burea
 
 
 
-which device has de button ?
+which device has buttons ?
 
 ```
  PhysicalObject that 'has subsystem' some ButtonDevice
@@ -126,7 +130,7 @@ which device has de button ?
 
 
 
-Which objects are son/off plateforms ?
+Which objects are "son/off" manufacturer plateforms ?
 
 ```
 SonOffDevice
@@ -286,5 +290,4 @@ Platform that hasSubSystem some (Sensor that observes value PresenceCorpsHumain)
 ```
 Device that (hasSubSystem some (Sensor that observes value PresenceCorpsHumain)) and hasDeployment value BureauChambre
 ```
-
 
