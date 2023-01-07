@@ -5,9 +5,8 @@ date = "2022-06-24"
 aliases = ["semantic-description-iot" ]
 author = "Mqtt IOT Stuff"
 thumbnail = "post/iot-system-description/images/iot-light-schema.jpg"
-
 tags = [
-    "semantic", "rdf", "owl", "xml" "onthology", "device", "ssn", "iot-light"
+    "semantic", "rdf", "owl", "xml", "onthology", "device", "ssn", "iot-light"
 ]
 categories = [
     "description", "iot"
