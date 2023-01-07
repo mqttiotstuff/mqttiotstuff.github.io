@@ -37,6 +37,17 @@ Hightly configurable animations implementation is shown and presented here, usin
     </item>
     
     <item>
+      <title>Creating cross compile executable with RUST</title>
+      <link>https://mqttiotstuff.github.io/post/rust-cross-compile/</link>
+      <pubDate>Fri, 07 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mqttiotstuff.github.io/post/rust-cross-compile/</guid>
+      <description>Creating executable for small embedded application can be tedious, especially if the plateform is not supporting executing compilation toochains.
+Creating cross executable with RUST In first place, creating an executable using rust is quite simple the typical steps are :
+ use rustup to add the target plateform, using the triplet describing the hardware, and system use the cargo build --target &amp;lt;TRIPLET&amp;gt;  command line to build  Thank&amp;rsquo;s to the community , these command line are easy to use and launch.</description>
+    </item>
+    
+    <item>
       <title>Indoor Location and Cyber Monitoring</title>
       <link>https://mqttiotstuff.github.io/post/indoor-location/</link>
       <pubDate>Sat, 13 Nov 2021 00:00:00 +0000</pubDate>
