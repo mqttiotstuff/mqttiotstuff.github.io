@@ -4,7 +4,7 @@ description = "Add more capabilities to context, buttons and feedback"
 date = "2021-10-31"
 aliases = ["event-time-base-triggers" ]
 author = "Mqtt IOT Stuff"
-thumbnail = "post/time-regexp-expression/images/tregexp.png"
+thumbnail = "post/time-regexp-expression/images/intro.png"
 
 tags = [
     "time", "python"

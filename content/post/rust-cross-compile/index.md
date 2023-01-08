@@ -1,7 +1,7 @@
 +++
 title = "Creating cross compile executable with RUST"
 description = "Cross compilation using rust for arm architectures"
-date = "2022-01-07"
+date = "2023-01-07"
 aliases = ["software" ]
 author = "Mqtt IOT Stuff"
 thumbnail = ""
