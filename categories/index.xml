@@ -17,20 +17,29 @@
     </item>
     
     <item>
-      <title>description</title>
-      <link>https://mqttiotstuff.github.io/categories/description/</link>
-      <pubDate>Fri, 24 Jun 2022 00:00:00 +0000</pubDate>
+      <title>archiving</title>
+      <link>https://mqttiotstuff.github.io/categories/archiving/</link>
+      <pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://mqttiotstuff.github.io/categories/description/</guid>
+      <guid>https://mqttiotstuff.github.io/categories/archiving/</guid>
       <description></description>
     </item>
     
     <item>
       <title>iot</title>
       <link>https://mqttiotstuff.github.io/categories/iot/</link>
-      <pubDate>Fri, 24 Jun 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>https://mqttiotstuff.github.io/categories/iot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>description</title>
+      <link>https://mqttiotstuff.github.io/categories/description/</link>
+      <pubDate>Fri, 24 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mqttiotstuff.github.io/categories/description/</guid>
       <description></description>
     </item>
     
