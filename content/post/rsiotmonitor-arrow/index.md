@@ -1,10 +1,10 @@
 +++
 title = "Archiving events easily"
 description = "using IOT, or ambiant technology as smart home lead to storing lots of events"
-date = "2023-01-07"
+date = "2023-06-25"
 aliases = ["software"]
 author = "Mqtt IOT Stuff"
-thumbnail = ""
+thumbnail = "post/rsiotmonitor-arrow/images/datacenter.png"
 
 tags = [
     "software", "rust", "apache arrow"

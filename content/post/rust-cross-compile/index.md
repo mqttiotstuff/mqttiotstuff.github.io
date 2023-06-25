@@ -4,7 +4,7 @@ description = "Cross compilation using rust for arm architectures"
 date = "2023-01-07"
 aliases = ["software" ]
 author = "Mqtt IOT Stuff"
-thumbnail = ""
+thumbnail = "post/rust-cross-compile/images/gears.png"
 
 tags = [
     "software", "rust"
