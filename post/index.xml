@@ -6,11 +6,11 @@
     <description>Recent content in Posts on MQTTIotStuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2008–2021, PFreydiere; all rights reserved.</copyright>
-    <lastBuildDate>Sat, 07 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mqttiotstuff.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 25 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mqttiotstuff.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Archiving events easily</title>
       <link>https://mqttiotstuff.github.io/post/rsiotmonitor-arrow/</link>
-      <pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate>
       
       <guid>https://mqttiotstuff.github.io/post/rsiotmonitor-arrow/</guid>
       <description>When expanding the intelligence and capabilities of a smart home, it becomes essential to have access to historical data. This data plays a crucial role in triggering new behaviors based on past events and triggers. By archiving these events, it becomes possible to enhance and fine-tune the smart home&amp;rsquo;s behavior, while also recognizing the inherent value of maintaining a historical record.
